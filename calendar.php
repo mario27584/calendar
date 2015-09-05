@@ -1,5 +1,10 @@
-<!--TEST TEST TEST -->
+<<<<<<< HEAD
+<!--TEST TEST TEST I wanna to revert laters -->
 <!-- THIS IS ON GITHUB saved from url=(0042)file:///C:/Users/Mario/OneDrive/table.html -->
+=======
+
+<!-- saved from url=(0042)file:///C:/Users/Mario/OneDrive/table.html -->
+>>>>>>> parent of dc4a6b4... h
 <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
