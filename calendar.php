@@ -105,10 +105,8 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 </style>
  
 
-   
-    
-    
- </head>
+       
+</head>
 <body>
 <?php
         
@@ -204,11 +202,18 @@ function appendTask(element, name, color,id) {
         imgX.setAttribute("height", "10");
         imgX.setAttribute("alt", "delete");
         imgX.onclick = function () {
-                                     var mainParent = this.parentNode.parentNode;
-                                     console.log(mainParent);
-                                     var childremove = this.parentNode;
-                                     mainParent.removeChild(childremove);
-                                     secondResize();
+                                    var mainParent = this.parentNode.parentNode;
+                                    console.log(this.parentNode.parentNode);
+                                    var childremove = this.parentNode;
+                                    console.log(childremove);
+                                    //parent contains day_time
+                                    var day_time = mainParent.id;
+                                    console.log("day and time: -->"+day_time);
+                                    //child contains name_id
+                                    var name_id = childremove.id;
+                                    console.log("name and id -->"+name_id);
+                                    mainParent.removeChild(childremove);
+                                    secondResize();
                                      
         }
         newDiv.style.zIndex="-1"
@@ -295,6 +300,7 @@ function drop(ev) {
     var splitIdName = data.split('_');
     var name = splitIdName[0];
     var i_d=  splitIdName[1];
+    console.log("What is this id???..."+i_d)
     loadXMLDoc(name, myTarget.id,i_d)
       
 }
