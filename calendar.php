@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-<!--TEST TEST TEST I wanna to revert laters -->
-<!-- THIS IS ON GITHUB saved from url=(0042)file:///C:/Users/Mario/OneDrive/table.html -->
-=======
+<!--TEST TEST TEST CRedentials
+parent of d0d7f2d... added a new line to explain why this file is important -->
 
-<!-- saved from url=(0042)file:///C:/Users/Mario/OneDrive/table.html -->
->>>>>>> parent of dc4a6b4... h
 <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
@@ -98,6 +94,14 @@
      
  }
  
+ #deleteDiv{
+     
+     float:right;
+     
+     
+     
+ }
+ 
 </style>
  
 
@@ -138,7 +142,7 @@ while($row = mysqli_fetch_assoc($result))
     
     
 <script>
-    var size = 50;
+    var size = 100;
     var id; 
 
 // var tasks = [
@@ -170,6 +174,7 @@ function processData() {
     }
 
     resizeChildren(elemList);
+    
    // getDivPositions();
 }
 
@@ -187,20 +192,37 @@ function findTaskSpot(time, day) {
     }
 }
 
+
 function appendTask(element, name, color,id) {
     
         var newDiv = document.createElement("DIV");
+      
+        var imgX = document.createElement("IMG");
+        imgX.setAttribute("src", "x.jpg");
+        imgX.setAttribute("id","deleteDiv");
+        imgX.setAttribute("width", "10");
+        imgX.setAttribute("height", "10");
+        imgX.setAttribute("alt", "delete");
+        imgX.onclick = function () {
+                                     var mainParent = this.parentNode.parentNode;
+                                     console.log(mainParent);
+                                     var childremove = this.parentNode;
+                                     mainParent.removeChild(childremove);
+                                     secondResize();
+                                     
+        }
         newDiv.style.zIndex="-1"
         newDiv.textContent = name;
         newDiv.contenteditable="true";
         newDiv.style.backgroundColor = color;
         newDiv.style.display = "block"; //horizontal
-      //  newDiv.style.display = "inline-block"; vertical 
+        //newDiv.style.display = "inline-block"; // vertical 
         newDiv.id = name+"_"+id;
         newDiv.name = name;
         newDiv.style.height = "50px";
         newDiv.draggable="true";
         newDiv.ondragstart=drag; 
+        newDiv.appendChild(imgX);
         element.appendChild(newDiv);
         return newDiv;
 }
@@ -209,8 +231,10 @@ function resizeChildren(elemList){
     for(var i=0; i <elemList.length; i++)
     {
         var numberChildren = elemList[i].parent.children.length;
-     //   elemList[i].node.style.width = size/numberChildren+"px"; vertical
-        elemList[i].node.style.height = size/numberChildren+"px";
+        //vertical
+ 
+     // elemList[i].node.style.width = size/numberChildren+"px";
+            elemList[i].node.style.height = size/numberChildren+"px";
         
     }
     
@@ -256,14 +280,13 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("text");
    
     console.log("this is the id: "+data);
-     console.log("check parent drop div : "+ev.target.id);
+    console.log("check parent drop div : "+ev.target.id);
     console.log("check name  : "+name);
      var myTarget =  ev.target;
     if(ev.target.className != "divtime" ){
         myTarget = myTarget.parentNode;
     }  
 
-    
     myTarget.appendChild(document.getElementById(data));
         
     secondResize();
@@ -273,9 +296,7 @@ function drop(ev) {
     var name = splitIdName[0];
     var i_d=  splitIdName[1];
     loadXMLDoc(name, myTarget.id,i_d)
-    
-    
-    
+      
 }
 
 function loadXMLDoc(name,daytime,id)
@@ -293,8 +314,8 @@ xmlhttp.onreadystatechange=function()
   var str = "updateDb.php?name="+name+"&daytime="+daytime+"&id="+id;
   //alert(str);
   console.log("file called: "+str)
-xmlhttp.open("GET",str ,true);
-xmlhttp.send();
+  xmlhttp.open("GET",str ,true);
+  xmlhttp.send();
 }    
     
     

@@ -43,6 +43,6 @@ else {
 
 //echo "<a href=\"javascript:window.location.reload(history.go(-2));\">Back<a>";
 
-echo "<a href=http://localhost:8383/calendar.php>GO BACK</a>";
+echo "<a href=http://localhost:8383/calendar/calendar.php>GO BACK</a>";
 
 ?>
