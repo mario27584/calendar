@@ -4,6 +4,7 @@ $daytime=$_GET['daytime'];
 $dtarray = explode("_",$daytime);
 $name = $_GET['name'];
 $id = $_GET['id'];
+$deleteOrMove = $_GET['deleteOrMove'];
 
 //print_r($dtarray);
 
@@ -11,7 +12,7 @@ $day = $dtarray[0];
 $time = $dtarray[1]; 
 
 
-//echo $day;
+//echo $deleteOrMove;
 
 //echo $time;
 
@@ -21,22 +22,54 @@ $time = $dtarray[1];
 $conn = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($conn));
 
     
+if($deleteOrMove == 'move')
+{
+    $sq =  "UPDATE classes SET day=\"$day\", time=\"$time\" WHERE id=\"$id\"";
 
-$sq =  "UPDATE classes SET day=\"$day\", time=\"$time\" WHERE id=\"$id\"";
+    //echo $sq;
 
-//echo $sq;
-
-$result = mysqli_query($conn, $sq) or die("!!!!!Error" . mysqli_error($conn));
+   $result = mysqli_query($conn, $sq) or die("!!!!!Error" . mysqli_error($conn));
  
-  if (mysqli_query($conn, $sq)) {
-    echo "Record updated successfully";
+      if (mysqli_query($conn, $sq)) {
+      echo "Record updated successfully";
 //     echo $day;
 
 // echo $time;
 
 // echo $name;
-} else {
+    } 
+    else {  
     echo "Error updating record: " . mysqli_error($conn);
+    }
+}
+
+elseif($deleteOrMove == 'delete'){
+  
+  $sq =  "DELETE FROM classes WHERE id=\"$id\"";
+
+    //echo $sq;
+
+   $result = mysqli_query($conn, $sq) or die("DEleted !Error" . mysqli_error($conn));
+ 
+      if (mysqli_query($conn, $sq)) {
+      echo "Record Deleted successfully";
+//     echo $day;
+
+// echo $time;
+
+// echo $name;
+    } 
+    else {  
+    echo "Error updating record: " . mysqli_error($conn);
+    }
+  
+  
+  
+  
+  
+  
+  
+  
 }
 
 mysqli_close($conn);

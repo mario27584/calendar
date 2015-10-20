@@ -212,9 +212,13 @@ function appendTask(element, name, color,id) {
                                     //child contains name_id
                                     var name_id = childremove.id;
                                     console.log("name and id -->"+name_id);
+                                    var split_IdName = name_id.split('_');
+                                    var name = split_IdName[0];
+                                    var i_d=  split_IdName[1];
+                                    var deleteOrMove = "delete";
                                     mainParent.removeChild(childremove);
                                     secondResize();
-                                     
+                                    loadXMLDoc(name,day_time,i_d,deleteOrMove);
         }
         newDiv.style.zIndex="-1"
         newDiv.textContent = name;
@@ -300,12 +304,13 @@ function drop(ev) {
     var splitIdName = data.split('_');
     var name = splitIdName[0];
     var i_d=  splitIdName[1];
+    var deleteOrMove="move";
     console.log("What is this id???..."+i_d)
-    loadXMLDoc(name, myTarget.id,i_d)
+    loadXMLDoc(name, myTarget.id,i_d,deleteOrMove)
       
 }
 
-function loadXMLDoc(name,daytime,id)
+function loadXMLDoc(name,daytime,id,deleteOrMove)
 {
  xmlhttp=new XMLHttpRequest();
   
@@ -317,7 +322,7 @@ xmlhttp.onreadystatechange=function()
     
     }
   }
-  var str = "updateDb.php?name="+name+"&daytime="+daytime+"&id="+id;
+  var str = "updateDb.php?name="+name+"&daytime="+daytime+"&id="+id+"&deleteOrMove="+deleteOrMove;
   //alert(str);
   console.log("file called: "+str)
   xmlhttp.open("GET",str ,true);
@@ -351,7 +356,7 @@ function overlay() {
    time: <input type="text" id="time" name="time" ><br>
    color: <input type="text" id="color" name="color" ><br>
   <br> <input type="submit" id="submit" value="submit" name="submit">
-  <a href="http://localhost:8383/calendar.php">
+  <a href="http://localhost:8383/calendar/calendar.php">
   <input type="button" value="Cancel" />
 </a>
 </form>
