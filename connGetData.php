@@ -1,7 +1,12 @@
 <?php
-        
+
+
+
+//$connection = mysqli_connect("us-cdbr-azure-northcentral-a.cleardb.com","bffac095b26a89","6b986b14","calendar") or die("Error " . mysqli_error($connection));
+
+
 //      open connection to mysql db
-$connection = mysqli_connect("fdb2.biz.nf","1965516_wp","masmango1","1965516_wp") or die("Error " . mysqli_error($connection));
+$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($connection));
 
       //fetch table rows from mysql db
      

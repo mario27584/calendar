@@ -17,7 +17,7 @@ $name = $_POST['name'];
 $time = $_POST['time'];
 $day = $_POST['day'];
 $color = $_POST['color'];
-
+$name = preg_replace('/\s+/', '', $name);
 if($name && $time && $day && $color){
     
 
