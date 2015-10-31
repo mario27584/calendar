@@ -1,7 +1,7 @@
 <?php
         
 //      open connection to mysql db
-$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($connection));
+$connection = mysqli_connect("fdb2.biz.nf","1965516_wp","masmango1","1965516_wp") or die("Error " . mysqli_error($connection));
 
       //fetch table rows from mysql db
      
