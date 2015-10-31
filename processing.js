@@ -1,5 +1,5 @@
-    var size = 100;
-    var id; 
+var size = 100;
+var id; 
 
 // var tasks = [
 // {
@@ -41,6 +41,7 @@ function findTaskSpot(time, day) {
     for (var j = 0; j < cList.length; j++) {
         var elem = cList[j];
         console.log("tag name:" + elem.tagName);
+        
         if (elem.getAttribute("id") == day) {
             
             return elem;
@@ -55,7 +56,7 @@ function appendTask(element, name, color,id) {
       
         var imgX = document.createElement("IMG");
         imgX.setAttribute("src", "x.jpg");
-        imgX.setAttribute("id","deleteDiv");
+        imgX.setAttribute("id","deleteDiv");  // x_newDiv.id  = math_88  ---- x_math_88
         imgX.setAttribute("width", "10");
         imgX.setAttribute("height", "10");
         imgX.setAttribute("alt", "delete");
@@ -68,6 +69,8 @@ function appendTask(element, name, color,id) {
                                     var day_time = mainParent.id;
                                     console.log("day and time: -->"+day_time);
                                     //child contains name_id
+                                    
+                                    /// use child id to remove it... document.getelementbyid(childID).remove()
                                     var name_id = childremove.id;
                                     console.log("name and id -->"+name_id);
                                     var split_IdName = name_id.split('_');
@@ -75,6 +78,7 @@ function appendTask(element, name, color,id) {
                                     var i_d=  split_IdName[1];
                                     var deleteOrMove = "delete";
                                     mainParent.removeChild(childremove);
+                                   
                                     secondResize();
                                     loadXMLDoc(name,day_time,i_d,deleteOrMove);
         }
