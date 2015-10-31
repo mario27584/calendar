@@ -24,7 +24,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
    name: <input type="text" id="name" name="name"><br>
    day: <input type="text" id="day" name="day" ><br>
    time: <input type="text" id="time" name="time" ><br>
-   color: <input type="text" id="color" name="color" ><br>
+   
   <br> <input type="submit" id="submit" value="submit" name="submit">
   <a href="http://localhost:8383/calendar/calendar.php">
   <input type="button" value="Cancel" />

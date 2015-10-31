@@ -1,5 +1,12 @@
-var size = 100;
+var size = 70;
 var id; 
+
+
+
+var colors = ['olive','magenta','lime','purple','cyan','red', 'green', 'blue', 'orange', 'yellow'];
+
+//myDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
 
 // var tasks = [
 // {
@@ -53,49 +60,38 @@ function findTaskSpot(time, day) {
 function appendTask(element, name, color,id) {
     
         var newDiv = document.createElement("DIV");
-      
-        var imgX = document.createElement("IMG");
-        imgX.setAttribute("src", "x.jpg");
-        imgX.setAttribute("id","deleteDiv");  // x_newDiv.id  = math_88  ---- x_math_88
-        imgX.setAttribute("width", "10");
-        imgX.setAttribute("height", "10");
-        imgX.setAttribute("alt", "delete");
-        imgX.onclick = function () {
-                                    var mainParent = this.parentNode.parentNode;
-                                    console.log(this.parentNode.parentNode);
-                                    var childremove = this.parentNode;
-                                    console.log(childremove);
-                                    //parent contains day_time
-                                    var day_time = mainParent.id;
-                                    console.log("day and time: -->"+day_time);
-                                    //child contains name_id
-                                    
-                                    /// use child id to remove it... document.getelementbyid(childID).remove()
-                                    var name_id = childremove.id;
-                                    console.log("name and id -->"+name_id);
-                                    var split_IdName = name_id.split('_');
-                                    var name = split_IdName[0];
-                                    var i_d=  split_IdName[1];
-                                    var deleteOrMove = "delete";
-                                    mainParent.removeChild(childremove);
-                                   
-                                    secondResize();
-                                    loadXMLDoc(name,day_time,i_d,deleteOrMove);
-        }
         newDiv.style.zIndex="-1"
         newDiv.textContent = name;
         newDiv.contenteditable="true";
-        newDiv.style.backgroundColor = color;
-        newDiv.style.display = "block"; //horizontal
-        //newDiv.style.display = "inline-block"; // vertical 
+        newDiv.style.display = "block"; //horizontal   and  //newDiv.style.display = "inline-block"; // vertical 
         newDiv.id = name+"_"+id;
         newDiv.name = name;
         newDiv.style.height = "50px";
+        newDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
         newDiv.draggable="true";
         newDiv.ondragstart=drag; 
-        newDiv.appendChild(imgX);
-        element.appendChild(newDiv);
-        return newDiv;
+        
+       
+      
+        var imgX = document.createElement("IMG");
+        imgX.setAttribute("src", "x.jpg");
+        imgX.setAttribute("class","deleteDiv");  // newDiv.id  = math_88  ---- math_88
+        imgX.setAttribute("id",newDiv.id);
+        imgX.setAttribute("alt", "delete");
+        imgX.onclick = function () {
+                                        var deleteOrMove = "delete";
+                                        var day_time = imgX.parentNode.parentNode.id;
+                                        var name_id = imgX.id.split('_');
+                                        var name = name_id[0];
+                                        var id = name_id[1];
+                                        document.getElementById(this.id).remove();
+                                   
+                                        secondResize();
+                                        loadXMLDoc(name,day_time,id,deleteOrMove);
+        }
+     newDiv.appendChild(imgX);
+     element.appendChild(newDiv);
+     return newDiv;
 }
 
 function resizeChildren(elemList){
@@ -103,9 +99,9 @@ function resizeChildren(elemList){
     {
         var numberChildren = elemList[i].parent.children.length;
         //vertical
- 
-     // elemList[i].node.style.width = size/numberChildren+"px";
-            elemList[i].node.style.height = size/numberChildren+"px";
+      // elemList[i].node.style.width = size/numberChildren+"px";
+          
+        elemList[i].node.style.height = size/numberChildren+"px";
         
     }
     

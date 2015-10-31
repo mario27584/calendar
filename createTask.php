@@ -15,13 +15,14 @@ $conn = mysqli_connect("localhost","root","","schedule") or die("@@@@Error " . m
 $name = $_POST['name'];
 //echo "name: ".$name;
 $time = $_POST['time'];
-$day = $_POST['day'];
-$color = $_POST['color'];
+$day = strtolower($_POST['day']);
+//$color = $_POST['color'];
 $name = preg_replace('/\s+/', '', $name);
-if($name && $time && $day && $color){
+
+if($name && $time && $day){
     
 
-$sql = "INSERT INTO classes (name,time,day,color) VALUES (\"$name\",\"$time\",\"$day\",\"$color\")";
+$sql = "INSERT INTO classes (name,time,day) VALUES (\"$name\",\"$time\",\"$day\")";
 $result = mysqli_query($conn, $sql) or die("Error" . mysqli_error($conn));
 
  if ($result) {
