@@ -1,4 +1,6 @@
-<?php
+<?
+
+include 'credentials.php';
 
 $daytime=$_GET['daytime'];
 $dtarray = explode("_",$daytime);
@@ -19,7 +21,7 @@ $time = $dtarray[1];
 //echo $name;
 
 //      open connection to mysql db
-$conn = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($conn));
+$conn = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($conn));
 
     
 if($deleteOrMove == 'move')

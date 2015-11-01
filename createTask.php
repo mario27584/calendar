@@ -1,15 +1,14 @@
 <?php
  //var_dump($_POST);   
+   
+ include 'credentials.php';
     
 if(isset($_POST['submit']))
 {
-$dbhost = 'localhost';
-$dbuser = 'root';
-$dbpass = '';
 
 
 //      open connection to mysql db
-$conn = mysqli_connect("localhost","root","","schedule") or die("@@@@Error " . mysqli_error($conn));
+$conn = mysqli_connect($host,$user,$pass,$db) or die("@@@@Error " . mysqli_error($conn));
 
 
 $name = $_POST['name'];
