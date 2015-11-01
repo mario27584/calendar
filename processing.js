@@ -177,7 +177,7 @@ xmlhttp.onreadystatechange=function()
   if (xmlhttp.readyState==4 && xmlhttp.status==200)
     {
     document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
-    
+        //  alert(xmlhttp.responseText);
     }
   }
   var str = "updateDb.php?name="+name+"&daytime="+daytime+"&id="+id+"&deleteOrMove="+deleteOrMove;
@@ -185,6 +185,7 @@ xmlhttp.onreadystatechange=function()
   console.log("file called: "+str)
   xmlhttp.open("GET",str ,true);
   xmlhttp.send();
+ 
 }    
     
     

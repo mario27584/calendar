@@ -1,4 +1,4 @@
-<?
+<?php
 
 include 'credentials.php';
 
@@ -28,20 +28,22 @@ if($deleteOrMove == 'move')
 {
     $sq =  "UPDATE classes SET day=\"$day\", time=\"$time\" WHERE id=\"$id\"";
 
-    //echo $sq;
+   // echo $sq;
 
    $result = mysqli_query($conn, $sq) or die("!!!!!Error" . mysqli_error($conn));
  
       if (mysqli_query($conn, $sq)) {
-      echo "Record updated successfully";
-//     echo $day;
+       echo "Record updated successfully";
+// echo $day;
 
-// echo $time;
+//  echo $time;
 
-// echo $name;
+//  echo $name;
+ 
+
     } 
     else {  
-    echo "Error updating record: " . mysqli_error($conn);
+            echo "Error updating record: " . mysqli_error($conn);
     }
 }
 
@@ -49,12 +51,13 @@ elseif($deleteOrMove == 'delete'){
   
   $sq =  "DELETE FROM classes WHERE id=\"$id\"";
 
-    //echo $sq;
+   // echo $sq;
+   // die($sq);
 
    $result = mysqli_query($conn, $sq) or die("DEleted !Error" . mysqli_error($conn));
  
       if (mysqli_query($conn, $sq)) {
-      echo "Record Deleted successfully";
+         echo "Record Deleted successfully";
 //     echo $day;
 
 // echo $time;
@@ -62,7 +65,7 @@ elseif($deleteOrMove == 'delete'){
 // echo $name;
     } 
     else {  
-    echo "Error updating record: " . mysqli_error($conn);
+         echo "Error updating record: " . mysqli_error($conn);
     }
   
   
