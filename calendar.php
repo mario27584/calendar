@@ -10,10 +10,11 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
        
 </head>
 <body>
+
 <?php include 'connGetData.php';?>
 <script type="text/JavaScript" src="processing.js"></script> 
-<div id="myDiv"></div>
-   <br>
+
+   <br><br>
    <a id="showform" href'#' onclick='overlay()'> Add a new task</a>
     
 <!--<br>-->
@@ -26,12 +27,26 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
    time: <input type="text" id="time" name="time" ><br>
    
   <br> <input type="submit" id="submit" value="submit" name="submit">
-  <a href="http://localhost:8383/calendar/calendar.php">
+  <a href="http://mvcalendar.azurewebsites.net/calendar.php">
   <input type="button" value="Cancel" />
 </a>
 </form>
 </div>
-<div id='panel' class="Table disp tmp" style=" position:absolute;top:40%;left:40%;margin:-250px 0 0 -250px">
+<br><br><br>
+
+<div id='menu' >
+
+
+<ul id="navigation-bar">
+     <br>
+  <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li> <br>
+  <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Products</a></li><br>
+  <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Services</a></li><br>
+  <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Press</a></li><br>
+  <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li><br>
+</ul>
+</div>
+<div id='panel' class="Table disp tmp" style=" position:absolute;top:40%;left:40%;margin:-250px 0 0 -220px">
     
     
     <div class="Heading">

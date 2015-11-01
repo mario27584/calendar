@@ -1,4 +1,4 @@
-    .Table
+    .Table disp tmp
     {
         display: table;
     }
@@ -53,10 +53,10 @@
 #overlay {
      visibility: hidden;
      position: absolute;
-     left: 0px;
-     top: 1000px;
+     /*left: 0px;*/
+     /*top: 10000px;*/
      width:100%;
-     height:100%;
+     height:130%;
      text-align:center;
      z-index: 1000;
      background-color:silver;
@@ -104,8 +104,36 @@
                background-color:silver;
      
  }
+
+#navigation-bar {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
      
+    #navigation-bar li {
+  display: inblock;
+  
+}
+#navigation-bar li a {
+  width: 15em;
+  padding: 0.5em 1em;
+  margin: 10px;
+  text-decoration: none;
+  border-color : #69f #00f #00f #69f;
+  
+   background-color: #b0c4de;
+} 
      
-     
-     
- 
+ #navigation-bar li a:hover {
+  text-decoration: underline;
+}
+
+#menu{
+  
+  border-color : #69f #00f #00f #69f;
+  background-color: #69f;
+  width: 150px;
+  
+  
+}
