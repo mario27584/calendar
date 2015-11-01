@@ -17,7 +17,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
    <a id="showform" href'#' onclick='overlay()'> Add a new task</a>
     
 <!--<br>-->
-<div id="overlay" style="position:absolute;top:50%;left:20%;margin:-320px 0 0 -320px">
+<div id="overlay" style="position:absolute;top:50%;left:20%;margin:-320px 0 0 -320px;">
  
 <form action="createTask.php" method="POST">
     <legend>Insert New Task</legend><br>
