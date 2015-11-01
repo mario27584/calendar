@@ -4,7 +4,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=*">
     <link rel="stylesheet" type="text/css" href="mycss.css"> 
 
        
@@ -17,7 +17,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
    <a id="showform" href'#' onclick='overlay()'> Add a new task</a>
     
 <!--<br>-->
-<div id="overlay" style=" position:absolute;top:50%;left:20%;margin:-250px 0 0 -250px"">
+<div id="overlay" style="position:absolute;top:50%;left:20%;margin:-320px 0 0 -320px">
  
 <form action="createTask.php" method="POST">
     <legend>Insert New Task</legend><br>
