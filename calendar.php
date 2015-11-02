@@ -28,53 +28,53 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
    
   <br> <input type="submit" id="submit" value="submit" name="submit">
   <a href="http://mvcalendar.azurewebsites.net/calendar.php">
-  <input type="button" value="Cancel" />
+  <input type="button" value="Cancel">
 </a>
 </form>
 </div>
 <br><br><br>
 
-<div id='menu' >
-<ul class="nav">
+
+<ul class="nav" style="margin:-20px 0 0 -1px;">
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li>
 </ul>
-</div>
-<div id='panel' class="Table disp tmp" style=" position:absolute;top:40%;left:40%;margin:-250px 0 0 -220px">
+
+<div id='panel' class="Table" >
     
     
     <div class="Heading">
-        <div id="Cell">
+        <div class="Cell">
             <p>Hour</p>
         </div>
-        <div id="Cell">
+        <div class="Cell">
             <p>Monday</p>
         </div>
-        <div id="Cell">
+        <div class="Cell">
             <p>Tuesday</p>
         </div>
-        <div id="Cell">
+        <div class="Cell">
             <p>Wednesday</p>
         </div>
-        <div id="Cell"> 
+        <div class="Cell"> 
             <p>Thursday</p>
         </div>
-        <div id="Cell">
+        <div class="Cell">
             <p>Friday</p>
         </div>
-        <div id="Cell">
+        <div class="Cell">
             <p>Saturday</p>
         </div>
-        <div id="Cell">
+        <div class="Cell">
             <p>Sunday</p>
         </div>
     </div>
     
     
     <div id="_8" class="Row">
-        <div id="Cell" class="8">
+        <div class="Cell 8">
             <p>8</p>
         </div>
         <div id="monday_8" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -102,7 +102,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
     
     <div id="_9" class="Row">
-        <div id="Cell" class="9">
+        <div class="Cell 9">
             <p>9</p>
         </div>
         <div id="monday_9" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -131,7 +131,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     
     
     <div id="_10" class="Row">
-        <div id="Cell" class="10" >
+        <div class="Cell 10" >
             <p>10</p>
         </div>
         <div id="monday_10" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)" >
@@ -160,7 +160,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
     
      <div id="_11" class="Row">
-        <div id="Cell" class="11">
+        <div class="Cell 11">
            <p>11</p>
         </div>
         <div id="monday_11" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -188,7 +188,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
     
     <div id="_12" class="Row">
-        <div id="Cell" class="12">
+        <div class="Cell 12">
             <p>12</p>
         </div>
         <div id="monday_12" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -216,7 +216,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
  
  <div id="_13" class="Row">
-        <div id="Cell" class="13">
+        <div class="Cell 13">
             <p>13</p>
         </div>
         <div id="monday_13" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -244,7 +244,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
  
  <div id="_14" class="Row">
-        <div id="Cell" class="14">
+        <div class="Cell 14">
             <p>14</p>
         </div>
         <div id="monday_14" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -272,7 +272,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
  
  <div id="_15" class="Row">
-        <div id="Cell" class="15">
+        <div class="Cell 15">
             <p>15</p>
         </div>
         <div id="monday_15" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -300,7 +300,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
  
  <div id="_16" class="Row">
-        <div id="Cell" class="16">
+        <div class="Cell 16">
             <p>16</p>
         </div>
         <div id="monday_16" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -329,7 +329,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     
     
  <div id="_17" class="Row">
-        <div id="Cell" class="17">
+        <div class="Cell 17">
             <p>17</p>
         </div>
         <div id="monday_17" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -358,7 +358,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     
     
  <div id="_18" class="Row">
-        <div id="Cell" class="18">
+        <div class="Cell 18">
             <p>18</p>
         </div>
         <div id="monday_18" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
