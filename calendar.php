@@ -70,7 +70,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 
 <!-----------------------------------  begining of calendar table --------------------------------------------------->
 
-<div id='calendar' style="position:absolute;top:50%;left:20%;margin:-300px 0 0 90px;">
+<div id='calendar' style="position:absolute;top:50%;left:20%;margin:-300px 0 0 40px;">
     
  <!------------------table headings horizontal --------------------->
  
