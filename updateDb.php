@@ -14,11 +14,6 @@ $day = $dtarray[0];
 $time = $dtarray[1]; 
 
 
-//echo $deleteOrMove;
-
-//echo $time;
-
-//echo $name;
 
 //      open connection to mysql db
 $conn = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($conn));
@@ -33,13 +28,10 @@ if($deleteOrMove == 'move')
    $result = mysqli_query($conn, $sq) or die("!!!!!Error" . mysqli_error($conn));
  
       if (mysqli_query($conn, $sq)) {
-       echo "Record updated successfully";
-// echo $day;
-
-//  echo $time;
-
-//  echo $name;
- 
+       echo "<p>Record updated successfully</p>";
+       echo '<script language="javascript">';
+        echo 'alert("message successfully sent")';
+        echo '</script>';
 
     } 
     else {  
@@ -51,27 +43,18 @@ elseif($deleteOrMove == 'delete'){
   
   $sq =  "DELETE FROM classes WHERE id=\"$id\"";
 
-   // echo $sq;
-   // die($sq);
-
+   
    $result = mysqli_query($conn, $sq) or die("DEleted !Error" . mysqli_error($conn));
  
       if (mysqli_query($conn, $sq)) {
          echo "Record Deleted successfully";
-//     echo $day;
-
-// echo $time;
-
-// echo $name;
+            echo '<script language="javascript">';
+        echo 'alert("message sucdeleteeeecessfully sent")';
+        echo '</script>';
     } 
     else {  
          echo "Error updating record: " . mysqli_error($conn);
     }
-  
-  
-  
-  
-  
   
   
   

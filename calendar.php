@@ -6,45 +6,83 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=*">
     <link rel="stylesheet" type="text/css" href="mycss.css"> 
-
-       
 </head>
 <body>
 
 <?php include 'connGetData.php';?>
 <script type="text/JavaScript" src="processing.js"></script> 
 
-   <br><br>
-   <a id="showform" href'#' onclick='overlay()'> Add a new task</a>
+  
+   <!--<a id="showform" href'#' onclick='overlay()'> Add a new task</a>-->
+   <input type="submit" class='button1' href'#' onclick='overlay()' value="Add a new task">
+   
+   
+   
+ 
+<!--------------------     begining of hidden background div overlay  --------------------------> 
     
-<!--<br>-->
+
 <div id="overlay" style="position:absolute;top:50%;left:20%;margin:-320px 0 0 -320px;">
+    
+    
+<!--------------------    begining of  create task hidden form  ----------------->
+
  
 <form action="createTask.php" method="POST">
     <legend>Insert New Task</legend><br>
    name: <input type="text" id="name" name="name"><br>
    day: <input type="text" id="day" name="day" ><br>
    time: <input type="text" id="time" name="time" ><br>
-   
-  <br> <input type="submit" id="submit" value="submit" name="submit">
+   <br> <input type="submit" id="submit" value="submit" name="submit">
   <a href="http://mvcalendar.azurewebsites.net/calendar.php">
   <input type="button" value="Cancel">
 </a>
 </form>
+
+<!------------------    end create task hidden form     --------------------------->
+
 </div>
-<br><br><br>
+
+<!--------------------      end of hidden background div overlay  ------------------------------->
 
 
-<ul class="nav" style="margin:-20px 0 0 -1px;">
+
+
+<!--------------------      begining of navigation bar div ----------------------------------------->
+
+<div id="nav-bar"  >
+<ul class="nav" >
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li>
+    <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li>
+    <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li>
+    <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li>
+    <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
+	
 </ul>
+</div>
+<!-----------------------------      end of navigation bar  ----------------------------------------->
 
-<div id='panel' class="Table" >
+
+
+
+<!-----------------------------------  begining of calendar table --------------------------------------------------->
+
+<div id='calendar' style="position:absolute;top:50%;left:20%;margin:-300px 0 0 90px;">
     
-    
+ <!------------------table headings horizontal --------------------->
+ 
     <div class="Heading">
         <div class="Cell">
             <p>Hour</p>
@@ -72,7 +110,10 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
         </div>
     </div>
     
-    
+ <!--------------------    end table headings horizontal  ------------------->
+ 
+ 
+<!--begining time cells and cells to populate inside the table -------------------------------- -->
     <div id="_8" class="Row">
         <div class="Cell 8">
             <p>8</p>
