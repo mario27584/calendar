@@ -59,16 +59,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li>
-    <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li>
-    <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li>
-    <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
+	
 	
 </ul>
 </div>
