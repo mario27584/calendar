@@ -35,15 +35,11 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <br><br><br>
 
 <div id='menu' >
-
-
-<ul id="navigation-bar">
-     <br>
-  <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li> <br>
-  <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Products</a></li><br>
-  <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Services</a></li><br>
-  <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Press</a></li><br>
-  <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li><br>
+<ul class="nav">
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
+	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li>
 </ul>
 </div>
 <div id='panel' class="Table disp tmp" style=" position:absolute;top:40%;left:40%;margin:-250px 0 0 -220px">
