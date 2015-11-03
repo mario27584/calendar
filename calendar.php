@@ -22,13 +22,13 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <!--------------------     begining of hidden background div overlay  --------------------------> 
     
 
-<div id="overlay" style="position:absolute;top:50%;left:20%;margin:-320px 0 0 -320px;">
+<div id="overlay" style="position:absolute;">
     
     
 <!--------------------    begining of  create task hidden form  ----------------->
 
  
-<form action="createTask.php" method="POST" style="position:absolute;top:50%;left:20%;margin:-250px 0 0 250px;">
+<form action="createTask.php" method="POST" style="position:absolute;top:25%;left:45%;">
     <legend>Insert New Task</legend><br>
    name: <input type="text" id="name" name="name"><br>
    day: <input type="text" id="day" name="day" ><br>
@@ -45,7 +45,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 
 <!--------------------      end of hidden background div overlay  ------------------------------->
 
-
+<img src="ecuador.jpg" alt="Smiley face" height="50px" width="100%">
 
 
 <!--------------------      begining of navigation bar div ----------------------------------------->
@@ -70,7 +70,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 
 <!-----------------------------------  begining of calendar table --------------------------------------------------->
 
-<div id='calendar' style="position:absolute;top:50%;left:20%;margin:-300px 0 0 40px;">
+<div id='calendar' style="position:absolute;left:20%;">
     
  <!------------------table headings horizontal --------------------->
  
