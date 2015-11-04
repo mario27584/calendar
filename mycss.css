@@ -35,8 +35,8 @@
         border-width: thin;
         width: 150px;
         max-width: 150px;
-        height:  50px;
-        max-height: 50px;
+        height:  40px;
+        max-height: 150px;
         border-right: 2px double blue;
         border-bottom: 2px double blue;
         
@@ -65,7 +65,7 @@
    
 body {
         font-family: 'Roboto', sans-serif bold;
-        font-size:18px;
+        font-size:15px;
         background-color:silver;
       }
       

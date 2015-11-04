@@ -23,6 +23,7 @@ if($name && $time && $day){
 $sql = "INSERT INTO classes (name,time,day) VALUES (\"$name\",\"$time\",\"$day\")";
 $result = mysqli_query($conn, $sql) or die("Error" . mysqli_error($conn));
 
+        
  if ($result) {
     echo "Record updated successfully";
     echo"<br>";

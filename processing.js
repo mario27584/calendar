@@ -1,4 +1,4 @@
-var size = 70;
+var size = 50;
 var id; 
 
 

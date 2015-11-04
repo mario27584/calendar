@@ -26,7 +26,6 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     
     
 <!--------------------    begining of  create task hidden form  ----------------->
-
  
 <form action="createTask.php" method="POST" style="position:absolute;top:25%;left:45%;">
     <legend>Insert New Task</legend><br>
@@ -38,18 +37,11 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
   <input type="button" value="Cancel">
 </a>
 </form>
-
 <!------------------    end create task hidden form     --------------------------->
-
 </div>
-
 <!--------------------      end of hidden background div overlay  ------------------------------->
-
 <img src="ecuador.jpg" alt="Smiley face" height="50px" width="100%">
-
-
 <!--------------------      begining of navigation bar div ----------------------------------------->
-
 <div id="nav-bar"  >
 <ul class="nav" >
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
@@ -64,12 +56,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 </ul>
 </div>
 <!-----------------------------      end of navigation bar  ----------------------------------------->
-
-
-
-
 <!-----------------------------------  begining of calendar table --------------------------------------------------->
-
 <div id='calendar' style="position:absolute;left:20%;">
     
  <!------------------table headings horizontal --------------------->
