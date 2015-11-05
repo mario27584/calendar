@@ -9,6 +9,7 @@ if(isset($_POST['submit']))
 
 //      open connection to mysql db
 $conn = mysqli_connect($host,$user,$pass,$db) or die("@@@@Error " . mysqli_error($conn));
+//$conn = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($conn));
 
 $name = $_POST['name'];
 //echo "name: ".$name;
