@@ -5,8 +5,8 @@ include 'credentials.php';
 
 //      open connection to mysql db
 
-$connection = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($connection));
-//$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($conn));
+//$connection = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($connection));
+$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($conn));
       //fetch table rows from mysql db
      
 $sql = "select * from classes";
