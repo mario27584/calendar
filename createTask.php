@@ -9,8 +9,8 @@ if(isset($_POST['submit']))
 
 //      open connection to mysql db
 
-$conn = mysqli_connect($host,$user,$pass,$db) or die("@@@@Error " . mysqli_error($conn));
-//$conn = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($conn));
+$connection = mysqli_connect($host,$user,$pass,$db) or die("@@@@Error " . mysqli_error($connection));
+//$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($connection));
 
 $name = $_POST['name'];
 //echo "name: ".$name;
@@ -23,17 +23,17 @@ if($name && $time && $day){
     
 
 $sql = "INSERT INTO classes (name,time,day) VALUES (\"$name\",\"$time\",\"$day\")";
-$result = mysqli_query($conn, $sql) or die("Error" . mysqli_error($conn));
+$result = mysqli_query($connection, $sql) or die("Error" . mysqli_error($connection));
 
         
  if ($result) {
     echo "Record updated successfully";
     echo"<br>";
 } else {
-    echo "Error updating record: " . mysqli_error($conn);
+    echo "Error updating record: " . mysqli_error($connection);
 }
 
-mysqli_close($conn);
+mysqli_close($connection);
 }
 }
 

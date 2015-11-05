@@ -13,8 +13,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <script type="text/JavaScript" src="processing.js"></script> 
 
   
-   <!--<a id="showform" href'#' onclick='overlay()'> Add a new task</a>-->
-   <input type="submit" class='button1' href'#' onclick='overlay()' value="Add a new task">
+   
    
    
    
@@ -58,6 +57,9 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <!-----------------------------      end of navigation bar  ----------------------------------------->
 <!-----------------------------------  begining of calendar table --------------------------------------------------->
 <div id='calendar' style="position:absolute;left:20%;">
+
+<!--<a id="showform" href'#' onclick='overlay()'> Add a new task</a>-->
+   <input type="submit" class='button1' href'#' onclick='overlay()' value="Add a new task">
     
  <!------------------table headings horizontal --------------------->
  

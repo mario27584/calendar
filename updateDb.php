@@ -17,8 +17,8 @@ $time = $dtarray[1];
 
 //      open connection to mysql db
 
-$conn = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($conn));
-//$conn = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($conn));
+$connection = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($connection));
+//$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($connection));
     
 if($deleteOrMove == 'move')
 {
@@ -26,9 +26,9 @@ if($deleteOrMove == 'move')
 
    // echo $sq;
 
-   $result = mysqli_query($conn, $sq) or die("!!!!!Error" . mysqli_error($conn));
+   $result = mysqli_query($connection, $sq) or die("!!!!!Error" . mysqli_error($connection));
  
-      if (mysqli_query($conn, $sq)) {
+      if (mysqli_query($connection, $sq)) {
        echo "<p>Record updated successfully</p>";
        echo '<script language="javascript">';
         echo 'alert("message successfully sent")';
@@ -36,7 +36,7 @@ if($deleteOrMove == 'move')
 
     } 
     else {  
-            echo "Error updating record: " . mysqli_error($conn);
+            echo "Error updating record: " . mysqli_error($connection);
     }
 }
 
@@ -45,23 +45,23 @@ elseif($deleteOrMove == 'delete'){
   $sq =  "DELETE FROM classes WHERE id=\"$id\"";
 
    
-   $result = mysqli_query($conn, $sq) or die("DEleted !Error" . mysqli_error($conn));
+   $result = mysqli_query($connection, $sq) or die("Deleted !Error" . mysqli_error($connection));
  
-      if (mysqli_query($conn, $sq)) {
+      if (mysqli_query($connection, $sq)) {
          echo "Record Deleted successfully";
             echo '<script language="javascript">';
         echo 'alert("message sucdeleteeeecessfully sent")';
         echo '</script>';
     } 
     else {  
-         echo "Error updating record: " . mysqli_error($conn);
+         echo "Error updating record: " . mysqli_error($connection);
     }
   
   
   
 }
 
-mysqli_close($conn);
+mysqli_close($connection);
 
 
 

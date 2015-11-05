@@ -223,6 +223,7 @@ body {
                     text-align:center;
                     width: 127px;
                     top:25%;
+					left:-25%;
                     position: absolute;
 }
 .button1:hover {
