@@ -26,7 +26,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     
 <!--------------------    begining of  create task hidden form  ----------------->
  
-<form action="createTask.php" method="POST" style="position:absolute;top:25%;left:45%;">
+<form action="createTask.php" method="POST" style="position:absolute;top:25%;left:35%;">
     <legend>Insert New Task</legend><br>
    name: <input type="text" id="name" name="name"><br>
    day: <input type="text" id="day" name="day" ><br>

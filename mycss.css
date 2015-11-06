@@ -54,7 +54,7 @@ p, .textInsideTaskDiv{
         
         color: darkblue;
         font-weight: bold;
-        /*background-color: #b0c4de;*/
+        background-color: #b0c4de;
         background: linear-gradient(#003040,yellow);
         
         
@@ -98,7 +98,8 @@ body {
 #overlay form {
                     width:300px;
                     /*margin: 100px auto;*/
-                    background-color:  #b0c4de;
+                    /*background-color:  #b0c4de;*/
+                    background: linear-gradient(#003040,yellow);
                     border:1px solid #000;
                     padding:15px;
                     text-align:center;
@@ -153,7 +154,7 @@ body {
             border-top: 1px solid #ccc; 
             z-index: 90;
             border-color : #69f #00f #00f #69f;
-            /*background-color: #b0c4de;*/
+            background-color: #b0c4de;
             background: linear-gradient(#003040,yellow);
             
             /*-webkit-border-top-left-radius:10px;
@@ -211,7 +212,7 @@ body {
                     -webkit-box-shadow:inset 0px 1px 0px 0px #d197fe;
                     box-shadow:inset 0px 1px 0px 0px #d197fe;
                     border-color : #69f #00f #00f #69f;
-                    /*background-color: #b0c4de;*/
+                    background-color: #b0c4de;
                     background: linear-gradient(#003040,yellow);
                     
                     

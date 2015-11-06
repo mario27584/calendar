@@ -68,7 +68,8 @@ function appendTask(element, name, color,id) {
         newDiv.className = "textInsideTaskDiv";
         newDiv.name = name;
         newDiv.style.height = "50px";
-        newDiv.style.fontWeight = "bold";  //"2 vmin";
+        newDiv.style.fontWeight = "bold"; 
+        newDiv.style.color = "darkgrey";
        
         newDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
         newDiv.draggable="true";
