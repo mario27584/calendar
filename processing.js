@@ -65,8 +65,11 @@ function appendTask(element, name, color,id) {
         newDiv.contenteditable="true";
         newDiv.style.display = "block"; //horizontal   and  //newDiv.style.display = "inline-block"; // vertical 
         newDiv.id = name+"_"+id;
+        newDiv.className = "textInsideTaskDiv";
         newDiv.name = name;
         newDiv.style.height = "50px";
+        newDiv.style.fontWeight = "bold";  //"2 vmin";
+       
         newDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
         newDiv.draggable="true";
         newDiv.ondragstart=drag; 
@@ -177,11 +180,11 @@ xmlhttp.onreadystatechange=function()
   if (xmlhttp.readyState==4 && xmlhttp.status==200)
     {
     document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
-         alert(xmlhttp.responseText);
+         //alert(xmlhttp.responseText);
     }
   }
   var str = "updateDb.php?name="+name+"&daytime="+daytime+"&id="+id+"&deleteOrMove="+deleteOrMove;
-  alert(str);
+  //alert(str);
   console.log("file called: "+str)
   xmlhttp.open("GET",str ,true);
   xmlhttp.send();
