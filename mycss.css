@@ -1,3 +1,11 @@
+#logo-ecuador{
+    
+    height: 50px;
+    width:100%;
+    
+    
+}
+
 @media screen and (max-width: 400px) {
     .nav {
          visibility: hidden;
@@ -8,6 +16,19 @@
         visibility: visible;
         width: 30px;
         height: 30px;
+        
+        
+    }
+    
+    #logo-ecuador{
+        width:155%;
+        height:30px;
+        
+    }
+    
+    #calendar{
+        
+                top:10px;
         
         
     }
@@ -32,15 +53,17 @@ p, .textInsideTaskDiv{
     
     font-size: 2.5vmin;
     
+    
 }
 
 #calendar 
     {
         display: table;
-        width: 60%;
-        height: 60%;
-        padding-top:70px;
-        /*margin:-40px -500px 0 300px*/
+        width: 70%;
+        /*height: 40%;*/
+        /*padding-top:70px;*/
+        padding-top:75px;
+
         
       
         
@@ -52,6 +75,7 @@ p, .textInsideTaskDiv{
         display: table-row;
         font-weight: bold;
         text-align: center;
+        
     }
     
 .Row, .Heading
@@ -59,8 +83,13 @@ p, .textInsideTaskDiv{
         display: table-row;
         text-align: center;
         color: #069;
+        
+        
 	
     }
+    
+    
+ 
     
     
 .divtime, .Cell
@@ -72,7 +101,8 @@ p, .textInsideTaskDiv{
         border-width: thin;
         width: 150px;
         max-width: 150px;
-        height:  40px;
+        height:  50px;
+        
         /*max-height: 150px;*/
         border-right: 2px double blue;
         border-bottom: 2px double blue;
@@ -86,6 +116,8 @@ p, .textInsideTaskDiv{
         font-weight: bold;
         background-color: #b0c4de;
         background: linear-gradient(#003040,yellow);
+        vertical-align: middle;
+        text-shadow: 1px 0 darkblue;
         
         
         border-top-right-radius: 10%;
@@ -108,6 +140,7 @@ body {
         font-size:15px;
         /*background-color:silver;*/
         background-color:#004050;
+
         
       }
       
@@ -141,7 +174,7 @@ body {
                     position: absolute;
                     border-width: 1px 4px 4px 1px;
                     text-decoration : none;
-                    padding : 4px;
+                    /*padding : 4px;*/
                     border-color : #69f #00f #00f #69f;
                     background-color: #b0c4de;
                     width: 127px;
@@ -225,6 +258,7 @@ body {
                 -moz-border-radius-bottomleft:20px;
                 border-bottom-left-radius:20px;
                 color: darkblue;
+                text-shadow: 1px 0 darkblue;
                 font-weight: bold;
                 border-right: 2px solid darkblue; 
     
@@ -262,6 +296,7 @@ body {
                     text-indent:0;
                     display:inline-block;
                     color: darkblue;
+                    text-shadow: 1px 0 darkblue;
                     font-weight: bold;
                     font-size: 2vmin;
                     font-style:normal;
@@ -277,5 +312,6 @@ body {
 .button1:hover {
 	
                     background-color:darkblue;
+                    text-shadow: 1px 0 darkblue;
                     color:white;
 }

@@ -33,10 +33,10 @@ function processData() {
         id = tasks[i].id;
         var newDiv = appendTask(element, tasks[i].name,tasks[i].color,id);
         elemList.push({node: newDiv, parent: element});
-        
+        resizeChildren(elemList);
     }
 
-    resizeChildren(elemList);
+    //resizeChildren(elemList);
     
    // getDivPositions();
 }
@@ -50,7 +50,7 @@ function findTaskSpot(time, day) {
         console.log("tag name:" + elem.tagName);
         
         if (elem.getAttribute("id") == day) {
-            
+            console.log("returned element is : "+elem.id);
             return elem;
         }
     }
@@ -95,6 +95,7 @@ function appendTask(element, name, color,id) {
         }
      newDiv.appendChild(imgX);
      element.appendChild(newDiv);
+     console.log("this is appending or not???????")
      return newDiv;
 }
 
@@ -185,7 +186,7 @@ xmlhttp.onreadystatechange=function()
     }
   }
   var str = "updateDb.php?name="+name+"&daytime="+daytime+"&id="+id+"&deleteOrMove="+deleteOrMove;
-  //alert(str);
+  alert(str);
   console.log("file called: "+str)
   xmlhttp.open("GET",str ,true);
   xmlhttp.send();

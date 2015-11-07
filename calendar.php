@@ -39,8 +39,15 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 </form>
 <!------------------    end create task hidden form     --------------------------->
 </div>
+
+
+
 <!--------------------      end of hidden background div overlay  ------------------------------->
-<img src="ecuador.jpg" alt="Smiley face" height="50px" width="100%">
+<img src="ecuador.jpg" id="logo-ecuador" alt="ecuador">
+
+
+
+
 <!--------------------      begining of navigation bar div ----------------------------------------->
 <div id="nav-bar"  >
     <img src="menu_icon.jpg"  id="menu_icon" width="50px" height="50px" />

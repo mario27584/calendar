@@ -17,8 +17,8 @@ $time = $dtarray[1];
 
 //      open connection to mysql db
 
-$connection = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($connection));
-//$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($connection));
+//$connection = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($connection));
+$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($connection));
     
 if($deleteOrMove == 'move')
 {
