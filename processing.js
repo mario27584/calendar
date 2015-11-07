@@ -69,7 +69,7 @@ function appendTask(element, name, color,id) {
         newDiv.name = name;
         newDiv.style.height = "50px";
         newDiv.style.fontWeight = "bold"; 
-        newDiv.style.color = "darkgrey";
+        newDiv.style.color = "black";
        
         newDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
         newDiv.draggable="true";
@@ -181,7 +181,7 @@ xmlhttp.onreadystatechange=function()
   {
   if (xmlhttp.readyState==4 && xmlhttp.status==200)
     {
-    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+  //  document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
          //alert(xmlhttp.responseText);
     }
   }

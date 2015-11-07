@@ -112,10 +112,10 @@ p, .textInsideTaskDiv{
 .Cell{
         
         
-        color: darkblue;
+        color: black;
         font-weight: bold;
         background-color: #b0c4de;
-        background: linear-gradient(#003040,yellow);
+        background: linear-gradient(orange,orange);
         vertical-align: middle;
         text-shadow: 1px 0 darkblue;
         
@@ -162,7 +162,7 @@ body {
                     width:300px;
                     /*margin: 100px auto;*/
                     /*background-color:  #b0c4de;*/
-                    background: linear-gradient(#003040,yellow);
+                    background: linear-gradient(orange,orange);
                     border:1px solid #000;
                     padding:15px;
                     text-align:center;
@@ -200,7 +200,7 @@ body {
              font-family: 'Source Sans Pro', sans-serif;
              font-size: 20px;
              /*background-color:#E0E0E0   ;*/
-             background-color: #4eb889;
+             background-color: whitesmoke;
  }
 
 .nav {
@@ -218,20 +218,9 @@ body {
             z-index: 90;
             border-color : #69f #00f #00f #69f;
             background-color: #b0c4de;
-            background: linear-gradient(#003040,yellow);
+            background: linear-gradient(orange,orange);
             
-            /*-webkit-border-top-left-radius:10px;
-            -moz-border-radius-topleft:10px;*/
-            /*border-top-left-radius:10px;*/
-            /*-webkit-border-top-right-radius:10px;
-            -moz-border-radius-topright:10px;*/
-            /*border-top-right-radius:10px;
-            -webkit-border-bottom-right-radius:10px;*/
-            /*-moz-border-radius-bottomright:10px;*/
-            /*border-bottom-right-radius:10px;*/
-            /*-webkit-border-bottom-left-radius:10px;
-            -moz-border-radius-bottomleft:10px;*/
-            /*border-bottom-left-radius:10px;*/
+           
    
     
 }
@@ -245,26 +234,20 @@ body {
                 display: block;
                 padding: 8px 15px;
                 text-decoration: none;
-                /*-webkit-border-top-left-radius:20px;
-                -moz-border-radius-topleft:20px;
-                border-top-left-radius:20px;*/
-                /*-webkit-border-top-right-radius:20px;
-                -moz-border-radius-topright:20px;
-                border-top-right-radius:20px;*/
-                -webkit-border-bottom-right-radius:20px;
-                -moz-border-radius-bottomright:20px;
+               -webkit-border-bottom-right-radius:20px;
+                -moz-border-radius-bottomright:10px;
                 border-bottom-right-radius:20px;
                 /*-webkit-border-bottom-left-radius:20px;*/
                 -moz-border-radius-bottomleft:20px;
                 border-bottom-left-radius:20px;
-                color: darkblue;
-                text-shadow: 1px 0 darkblue;
+                color: #15151C;
+                text-shadow: 0.5px 0 black;
                 font-weight: bold;
                 border-right: 2px solid darkblue; 
     
     }
 .nav li a:hover {
-                    background-color:darkblue;
+                    background-color:#004050;
                     color:white;
     
     
@@ -275,9 +258,9 @@ body {
                     -moz-box-shadow:inset 0px 1px 0px 0px #d197fe;
                     -webkit-box-shadow:inset 0px 1px 0px 0px #d197fe;
                     box-shadow:inset 0px 1px 0px 0px #d197fe;
-                    border-color : #69f #00f #00f #69f;
+                    border-color : #69f #003040 #003040 #003040;
                     background-color: #b0c4de;
-                    background: linear-gradient(#003040,yellow);
+                    background: linear-gradient(orange,orange);
                     
                     
                     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a53df6', endColorstr='#7c16cb');
@@ -295,7 +278,7 @@ body {
                     border-bottom-left-radius:20px;*/
                     text-indent:0;
                     display:inline-block;
-                    color: darkblue;
+                    color: black;
                     text-shadow: 1px 0 darkblue;
                     font-weight: bold;
                     font-size: 2vmin;
@@ -311,7 +294,7 @@ body {
 }
 .button1:hover {
 	
-                    background-color:darkblue;
+                    background-color:#004050;
                     text-shadow: 1px 0 darkblue;
                     color:white;
 }
