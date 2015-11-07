@@ -5,9 +5,9 @@ include 'credentials.php';
 
 //      open connection to mysql db
 
-//$connection = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($connection));
+$connection = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($connection));
 
-$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($connection));
+//$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($connection));
 
 
       //fetch table rows from mysql db
@@ -25,7 +25,7 @@ while($row = mysqli_fetch_assoc($result))
          
       }
    
-    echo json_encode($class_array);
+  //  echo json_encode($class_array);
       
      echo "<script> var tasks=".json_encode($class_array)."</script>";
  
