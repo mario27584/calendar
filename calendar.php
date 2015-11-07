@@ -6,6 +6,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=*">
     <link rel="stylesheet" type="text/css" href="mycss.css"> 
+    
 </head>
 <body>
 
@@ -42,6 +43,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <img src="ecuador.jpg" alt="Smiley face" height="50px" width="100%">
 <!--------------------      begining of navigation bar div ----------------------------------------->
 <div id="nav-bar"  >
+    <img src="menu_icon.jpg"  id="menu_icon" width="50px" height="50px" />
 <ul class="nav" >
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
 	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
