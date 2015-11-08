@@ -28,12 +28,12 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <!--------------------     begining of hidden background div overlay  --------------------------> 
     
 
-<div id="overlay" style="position:absolute;">
+<div id="overlay">
     
     
 <!--------------------    begining of  create task hidden form  ----------------->
  
-<form action="createTask.php" method="POST" style="position:absolute;top:25%;left:35%;">
+<form action="createTask.php" method="POST">
     <legend>Insert New Task</legend><br>
    name: <input type="text" id="name" name="name"><br>
    day: <input type="text" id="day" name="day" ><br>
@@ -48,21 +48,6 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <!--------------------      end of hidden background div overlay  ------------------------------->
 <img src="ecuador.jpg" id="logo-ecuador" alt="ecuador">
 <!--------------------      begining of navigation bar div ----------------------------------------->
-<!--<div id="nav-bar"  >
-    <img src="menu_icon.jpg"  id="menu_icon" width="50px" height="50px" />
-<ul class="nav" >
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">About</a></li>
-    <li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Home</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">News</a></li>
-	<li><a href="http://mvcalendar.azurewebsites.net/calendar.php">Blog</a></li>
-	
-	
-</ul>
-</div>-->
-
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -72,7 +57,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">MVCalendar</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
