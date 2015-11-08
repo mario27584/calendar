@@ -1,205 +1,189 @@
-#logo-ecuador{
-    
-    height: 50px;
-    width:100%;
-    
-    
-}
-
-@media screen and (max-width: 400px) {
-   
-   
     #logo-ecuador{
+        
+        height: 50px;
         width:100%;
-        height:30px;
-        
-    }
-    
-  
-        
-    
-}
-
-
-
-
-p, .textInsideTaskDiv{
-    
-    font-size: 2.5vmin;
-    
-    
-}
-
-#calendar 
-    {
-        display: table;
-       
-        /*height: 40%;*/
-        /*padding-top:70px;*/
-        
-
-        
-      
         
         
     }
-   
-.Heading
-    {
-        display: table-row;
-        font-weight: bold;
-        text-align: center;
+    
+    @media screen and (max-width: 400px) {
+    
+    
+        #logo-ecuador{
+            width:100%;
+            height:30px;
+            
+        }
+        
         
     }
     
-.Rowe
-    {
-        display: table-row;
-        text-align: center;
-        color: #069;
-       
+    
+    
+    
+    p, .textInsideTaskDiv{
         
+        font-size: 2.5vmin;
         
-	
-    }
-    
-    
- 
-    
-    
-.divtime, .Cell
-    {
-        display: table-cell;
-        color:black;
-        border: solid;
-        text-align: center;
-        border-width: thin;
-        width: 150px;
-        max-width: 150px;
-        height:  50px;
-        
-        /*max-height: 150px;*/
-        border-right: 2px double blue;
-        border-bottom: 2px double blue;
         
     }
     
-.Cell{
+    #calendar 
+        {
+            display: table;
+            
+        }
+    
+    .Heading
+        {
+            display: table-row;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+        
+    .Rowe
+        {
+            display: table-row;
+            text-align: center;
+            color: #069;
+        
+        }
         
         
-        color: black;
-        font-weight: bold;
-        background-color: #b0c4de;
-        background: linear-gradient(orange,orange);
-        vertical-align: middle;
-        text-shadow: 1px 0 darkblue;
+    
         
         
-        border-top-right-radius: 10%;
-        border-top-left-radius: 10%;
+    .divtime, .Cell
+        {
+            display: table-cell;
+            color:black;
+            border: solid;
+            text-align: center;
+            border-width: thin;
+            width: 150px;
+            max-width: 150px;
+            height:  50px;
+            border-right: 2px double blue;
+            border-bottom: 2px double blue;
+            
+        }
+        
+    .Cell{
+            
+            
+            color: black;
+            font-weight: bold;
+            background-color: #b0c4de;
+            background: linear-gradient(orange,orange);
+            vertical-align: middle;
+            text-shadow: 1px 0 darkblue;
+            
+            
+            border-top-right-radius: 10%;
+            border-top-left-radius: 10%;
+        }
+        
+    
+        
+    *{
+        
+        padding:0px;
+        margin: 0px;
+        
     }
     
-   
     
- *{
-       
-       padding:0px;
-       margin: 0px;
-       
-   }
-   
-
-   
-body {
-        font-family: 'Roboto', sans-serif bold;
-        font-size:15px;
-        /*background-color:silver;*/
-        background-color:#004050;
-
+    
+    body {
+            font-family: 'Roboto', sans-serif bold;
+            font-size:15px;
+            /*background-color:silver;*/
+            background-color:#004050;
+    
+            
+        }
         
-      }
-      
-#overlay {
-                visibility: hidden;
-                position: absolute;
-                
-                /*top: -10px;*/
-                width:100%;
-                height:123%;
-                text-align:center;
-                z-index: 1000;
-                background-color:silver;
-                opacity: 0.93;
-                filter: alpha(opacity=93);
-            }
- 
-#overlay form {
-                    width:300px;
-                    /*margin: 100px auto;*/
-                    /*background-color:  #b0c4de;*/
-                    background: linear-gradient(orange,orange);
-                    border:1px solid #000;
-                    padding:15px;
-                    text-align:center;
-}
-
-
-#showform{ 
-                    border-style: solid;
+    #overlay {
+                    visibility: hidden;
                     position: absolute;
-                    border-width: 1px 4px 4px 1px;
-                    text-decoration : none;
-                    /*padding : 4px;*/
-                    border-color : #69f #00f #00f #69f;
-                    background-color: #b0c4de;
-                    width: 127px;
-                    top:0px;
-   
-   
- }
- 
- p{
-     font-weight:bold;
-     
- }
- 
- .deleteDiv{
                     
-                    float:right;
-                    width: 10px;
-                    height: 10px;
- }
- 
- .divtime{
-              /*font-family: 'Oswald', sans-serif;*/
-             font-family: 'Source Sans Pro', sans-serif;
-             font-size: 20px;
-             /*background-color:#E0E0E0   ;*/
-             background-color: whitesmoke;
- }
-
-
-.button1 {
-                    
-                    
-                    
-                   
-                    
-                    display:inline-block;
-                    color: black;
-                    text-shadow: 1px 0 darkblue;
-                    font-weight: bold;
-                    font-size: 2vmin;
-                    font-style:normal;
-                    height:40px;
-                    line-height:40px;
-                    text-decoration:none;
+                    /*top: -10px;*/
+                    width:100%;
+                    height:123%;
                     text-align:center;
-                   
-}
-.button1:hover {
-	
-                    background-color:#004050;
-                    text-shadow: 1px 0 darkblue;
-                    color:white;
-}
+                    z-index: 1000;
+                    background-color:silver;
+                    opacity: 0.93;
+                    filter: alpha(opacity=93);
+                }
+    
+    #overlay form {
+                        width:300px;
+                        /*margin: 100px auto;*/
+                        /*background-color:  #b0c4de;*/
+                        background: linear-gradient(orange,orange);
+                        border:1px solid #000;
+                        padding:15px;
+                        text-align:center;
+    }
+    
+    
+    #showform{ 
+                        border-style: solid;
+                        position: absolute;
+                        border-width: 1px 4px 4px 1px;
+                        text-decoration : none;
+                        /*padding : 4px;*/
+                        border-color : #69f #00f #00f #69f;
+                        background-color: #b0c4de;
+                        width: 127px;
+                        top:0px;
+    
+    
+    }
+    
+    p{
+        font-weight:bold;
+        
+    }
+    
+    .deleteDiv{
+                        
+                        float:right;
+                        width: 10px;
+                        height: 10px;
+    }
+    
+    .divtime{
+                /*font-family: 'Oswald', sans-serif;*/
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 20px;
+                /*background-color:#E0E0E0   ;*/
+                background-color: whitesmoke;
+    }
+    
+    
+    .button1 {
+                        
+                        
+                        display:inline-block;
+                        color: black;
+                        text-shadow: 1px 0 darkblue;
+                        font-weight: bold;
+                        font-size: 2vmin;
+                        font-style:normal;
+                        height:40px;
+                        width: 100px;
+                        line-height:40px;
+                        text-decoration:none;
+                        text-align:center;
+                        background-color: orange;
+                    
+    }
+    .button1:hover {
+        
+                        background-color:#004050;
+                        text-shadow: 1px 0 darkblue;
+                        color:white;
+    }

@@ -45,15 +45,8 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 </form>
 <!------------------    end create task hidden form     --------------------------->
 </div>
-
-
-
 <!--------------------      end of hidden background div overlay  ------------------------------->
 <img src="ecuador.jpg" id="logo-ecuador" alt="ecuador">
-
-
-
-
 <!--------------------      begining of navigation bar div ----------------------------------------->
 <!--<div id="nav-bar"  >
     <img src="menu_icon.jpg"  id="menu_icon" width="50px" height="50px" />
@@ -102,16 +95,18 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
   </div>
 </nav>
-
-
+<div class="container">
+ <input type="submit" class='button1' href'#' onclick='overlay()' value="Add a new task">
+ <br>
+ <br>
+</div> 
+    
 <div class="container">
 <!-----------------------------      end of navigation bar  ----------------------------------------->
 <!-----------------------------------  begining of calendar table --------------------------------------------------->
 <div id='calendar'>
-
 <!--<a id="showform" href'#' onclick='overlay()'> Add a new task</a>-->
-   <input type="submit" class='button1' href'#' onclick='overlay()' value="Add a new task">
-    
+  
  <!------------------table headings horizontal --------------------->
  
     <div class="Heading">
