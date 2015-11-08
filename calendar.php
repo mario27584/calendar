@@ -11,6 +11,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
     
 </head>
 <body>
@@ -111,13 +112,13 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
         <div class="Cell"> 
             <p>Thursday</p>
         </div>
-        <div class="Cell">
+        <div class="Cell" id="friday_cell">
             <p>Friday</p>
         </div>
-        <div class="Cell">
+        <div class="Cell" id="saturday_cell">
             <p>Saturday</p>
         </div>
-        <div class="Cell">
+        <div class="Cell" id="sunday_cell">
             <p>Sunday</p>
         </div>
     </div>

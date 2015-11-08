@@ -3,6 +3,7 @@ var id;
 
 
 
+
 var colors = ['olive','magenta','lime','purple','cyan','red', 'green', 'blue', 'orange', 'yellow'];
 
 //myDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];

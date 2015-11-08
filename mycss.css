@@ -1,12 +1,21 @@
+/*.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    
+    background-color: orange !important;
+    color:black !important; 
+    
+    
+}*/
+
+
     #logo-ecuador{
-        
+     
         height: 50px;
         width:100%;
         
         
     }
     
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 300px) {
     
     
         #logo-ecuador{
@@ -15,11 +24,37 @@
             
         }
         
-       
-        
+              
         
     }
+  
+  @media (max-width: 1000px) {
+   #saturday_cell,#saturday_8,#saturday_9,#saturday_10,#saturday_11,#saturday_12,#saturday_13,#saturday_14,#saturday_15,#saturday_16,#saturday_17,#saturday_18 {
+        display: none;
+    }
     
+    
+    
+}
+
+ @media (max-width: 1000px) {
+   
+    
+    #sunday_cell,#sunday_8,#sunday_9,#sunday_10,#sunday_11,#sunday_12,#sunday_13,#sunday_14,#sunday_15,#sunday_16,#sunday_17,#sunday_18 {
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 1000px) {
+   
+    
+    #friday_cell,#friday_8,#friday_9,#friday_10,#friday_11,#friday_12,#friday_13,#friday_14,#friday_15,#friday_16,#friday_17,#friday_18 {
+        display: none;
+    }
+    
+}
     
     
     
@@ -98,7 +133,7 @@
     body {
             font-family: 'Roboto', sans-serif bold;
             font-size:15px;
-            background-color:#004050;
+            background-color:#004050 !important;
     
             
         }
