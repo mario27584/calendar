@@ -186,7 +186,7 @@ xmlhttp.onreadystatechange=function()
     }
   }
   var str = "updateDb.php?name="+name+"&daytime="+daytime+"&id="+id+"&deleteOrMove="+deleteOrMove;
-  alert(str);
+ // alert(str);
   console.log("file called: "+str)
   xmlhttp.open("GET",str ,true);
   xmlhttp.send();
