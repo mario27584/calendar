@@ -14,18 +14,13 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
   
     
 </head>
-<body>
+<body onresize="checkWindowSize()">
 
 <?php include 'connGetData.php';?>
 <script type="text/JavaScript" src="processing.js"></script> 
 
   
    
-   
-   
-   
-   
- 
 <!--------------------     begining of hidden background div overlay  --------------------------> 
     
 
@@ -86,8 +81,17 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
  <br>
  <br>
 </div> 
+
+<div class="col-xs-1 pull-bottom" style="height:100px;float:left;top:30%;" id="arrow-left">
+    </div>
+<div class="col-xs-1 pull-bottom" style="height:100px;float:right;top:30%;" id="arrow-right">
+    </div>
+
+
     
 <div class="container">
+  
+  
 <!-----------------------------      end of navigation bar  ----------------------------------------->
 <!-----------------------------------  begining of calendar table --------------------------------------------------->
 <div id='calendar'>
@@ -100,16 +104,16 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
         <div class="Cell">
             <p>Hour</p>
         </div>
-        <div class="Cell">
+        <div class="Cell" id="monday_cell">
             <p>Monday</p>
         </div>
-        <div class="Cell">
+        <div class="Cell" id="tuesday_cell">
             <p>Tuesday</p>
         </div>
-        <div class="Cell">
+        <div class="Cell" id="wednesday_cell">
             <p>Wednesday</p>
         </div>
-        <div class="Cell"> 
+        <div class="Cell" id="thursday_cell"> 
             <p>Thursday</p>
         </div>
         <div class="Cell" id="friday_cell">
@@ -440,6 +444,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
     
 </div>
+
 </div>
 
 </body></html>
