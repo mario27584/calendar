@@ -406,6 +406,8 @@ function checkWindowSize(){
                     document.getElementById("monday_17").style.display = "table-cell";
                     document.getElementById("monday_18").style.display = "table-cell";
                     
+                    document.getElementById("arrow-left").style.display = "none";
+                    
                     
            
         }
