@@ -42,14 +42,22 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <!------------------    end create task hidden form     --------------------------->
 </div>
 <!--------------------      end of hidden background div overlay  ------------------------------->
-<img src="ecuador.jpg" id="logo-ecuador" alt="ecuador">
+
+
+
+<!--<img src="ecuador.jpg" id="logo-ecuador" alt="ecuador">-->
+
+
+
+
+
 <!--------------------      begining of navigation bar div ----------------------------------------->
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-static-top navbar-custom1 ">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
+        <span class="icon-bar" style="color:black; font-weight: bold; ">Menu</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
@@ -77,20 +85,24 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
   </div>
 </nav>
 <div class="container">
- <input type="submit" class='button1' href'#' onclick='overlay()' value="Add a new task">
+ <input type="submit" style="background:orange; color:black; font-weight: bold; " class='btn btn-warning' href'#' onclick='overlay()' value="Add a new task">
  <br>
  <br>
 </div> 
 
-<div class="col-xs-1 pull-bottom" style="height:100px;float:left;top:30%;" id="arrow-left">
-    </div>
-<div class="col-xs-1 pull-bottom" style="height:100px;float:right;top:30%;" id="arrow-right">
-    </div>
-
 
     
 <div class="container">
-  
+   <div class="container">
+        <div  class="col-xs-1 pull-bottom" style="height:10px;float:left;top:30%;" id="arrow-left" >
+        </div>
+    
+       <div onclick="moveNext()"; class="col-xs-1 pull-bottom" style="height:10px;float:right;top:30%;" id="arrow-right">
+       </div>
+</div>
+
+</br>
+ 
   
 <!-----------------------------      end of navigation bar  ----------------------------------------->
 <!-----------------------------------  begining of calendar table --------------------------------------------------->
