@@ -393,6 +393,19 @@ function checkWindowSize(){
                     document.getElementById("tuesday_17").style.display = "none";
                     document.getElementById("tuesday_18").style.display = "none";
                     
+                    document.getElementById("monday_cell").style.display = "table-cell";
+                    document.getElementById("monday_8").style.display = "table-cell";
+                    document.getElementById("monday_9").style.display = "table-cell";
+                    document.getElementById("monday_10").style.display = "table-cell";
+                    document.getElementById("monday_11").style.display = "table-cell";
+                    document.getElementById("monday_12").style.display = "table-cell";
+                    document.getElementById("monday_13").style.display = "table-cell";
+                    document.getElementById("monday_14").style.display = "table-cell";
+                    document.getElementById("monday_15").style.display = "table-cell";
+                    document.getElementById("monday_16").style.display = "table-cell";
+                    document.getElementById("monday_17").style.display = "table-cell";
+                    document.getElementById("monday_18").style.display = "table-cell";
+                    
                     
            
         }
