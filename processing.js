@@ -480,6 +480,43 @@ function moveNext(){
     
 }
         
+function movePrev(){
+    
+    if(document.getElementById('tuesday_cell').style.display ="table-cell"){
+        
+                document.getElementById("monday_cell").style.display = "table-cell";
+                    document.getElementById("monday_8").style.display = "table-cell";
+                    document.getElementById("monday_9").style.display = "table-cell";
+                    document.getElementById("monday_10").style.display = "table-cell";
+                    document.getElementById("monday_11").style.display = "table-cell";
+                    document.getElementById("monday_12").style.display = "table-cell";
+                    document.getElementById("monday_13").style.display = "table-cell";
+                    document.getElementById("monday_14").style.display = "table-cell";
+                    document.getElementById("monday_15").style.display = "table-cell";
+                    document.getElementById("monday_16").style.display = "table-cell";
+                    document.getElementById("monday_17").style.display = "table-cell";
+                    document.getElementById("monday_18").style.display = "table-cell";
+            
+            
+                    document.getElementById("tuesday_cell").style.display = "none";
+                    document.getElementById("tuesday_8").style.display = "none";
+                    document.getElementById("tuesday_9").style.display = "none";
+                    document.getElementById("tuesday_10").style.display = "none";
+                    document.getElementById("tuesday_11").style.display = "none";
+                    document.getElementById("tuesday_12").style.display = "none";
+                    document.getElementById("tuesday_13").style.display = "none";
+                    document.getElementById("tuesday_14").style.display = "none";
+                    document.getElementById("tuesday_15").style.display = "none";
+                    document.getElementById("tuesday_16").style.display = "none";
+                    document.getElementById("tuesday_17").style.display = "none";
+                    document.getElementById("tuesday_18").style.display = "none";
+                    
+                     document.getElementById("arrow-left").style.display = "none";
+    }
+    
+    
+    
+}
         
         
         window.onload =processData;

@@ -94,10 +94,10 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     
 <div class="container">
    <div class="container">
-        <div  class="col-xs-1 pull-bottom" style="height:10px;float:left;top:30%;" id="arrow-left" >
+        <div onclick="movePrev()"  class="col-xs-1 pull-bottom" style="height:10px;float:left;top:30%;" id="arrow-left" >
         </div>
     
-       <div onclick="moveNext()"; class="col-xs-1 pull-bottom" style="height:10px;float:right;top:30%;" id="arrow-right">
+       <div onclick="moveNext()" class="col-xs-1 pull-bottom" style="height:10px;float:right;top:30%;" id="arrow-right">
        </div>
 </div>
 
