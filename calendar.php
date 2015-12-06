@@ -4,7 +4,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=*">
+    
     <link rel="stylesheet" type="text/css" href="mycss.css"> 
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,13 +22,15 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
   
    
 <!--------------------     begining of hidden background div overlay  --------------------------> 
-    
 
-<div id="overlay">
-    
+<div class="container" id="overlay" align="center">
+   <br>
+<br>
+<br>
+<br> 
     
 <!--------------------    begining of  create task hidden form  ----------------->
- 
+
 <form action="createTask.php" method="POST">
     <legend>Insert New Task</legend><br>
    name: <input type="text" id="name" name="name"><br>
@@ -65,7 +67,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="#">Something else</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -79,7 +81,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
       </ul>
     </div>
   </div>

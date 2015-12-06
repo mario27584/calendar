@@ -5,7 +5,7 @@ var show =  1;
         
         
         
-var colors = ['olive','magenta','lime','purple','cyan','red', 'green', 'blue', 'orange', 'yellow'];
+var colors = ['olive','magenta','lime','purple','cyan','red', 'green', 'blue', 'yellow','#FF4848','#6633FF'];
         
         //myDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
         
@@ -76,10 +76,10 @@ function appendTask(element, name, color,id) {
                 newDiv.style.color = "black";
             
                 newDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                newDiv.contentEditable ="true";
                 newDiv.draggable="true";
                 newDiv.ondragstart=drag; 
                 
-            
             
                 var imgX = document.createElement("IMG");
                 imgX.setAttribute("src", "x.jpg");
@@ -445,7 +445,8 @@ function moveNext(){
     console.log("arrow is cliked");
    
     console.log("monday disp -> "+document.getElementById('monday_cell').style.display);
-    if(document.getElementById('monday_cell').style.display ="table-cell"){
+    
+    if(document.getElementById('monday_cell').style.display =="table-cell"){
         
                     document.getElementById('monday_cell').style.display="none";
                     document.getElementById("monday_8").style.display = "none";
@@ -477,12 +478,197 @@ function moveNext(){
                     document.getElementById("arrow-left").style.display = "inline";
     }
     
+   else if(document.getElementById('tuesday_cell').style.display =="table-cell")
+    {
+        
+        console.log("tuesday going to wedesday");
+                     document.getElementById('monday_cell').style.display="none";
+                    document.getElementById("monday_8").style.display = "none";
+                    document.getElementById("monday_9").style.display = "none";
+                    document.getElementById("monday_10").style.display = "none";
+                    document.getElementById("monday_11").style.display = "none";
+                    document.getElementById("monday_12").style.display = "none";
+                    document.getElementById("monday_13").style.display = "none";
+                    document.getElementById("monday_14").style.display = "none";
+                    document.getElementById("monday_15").style.display = "none";
+                    document.getElementById("monday_16").style.display = "none";
+                    document.getElementById("monday_17").style.display = "none";
+                    document.getElementById("monday_18").style.display = "none";
+                    
+                    document.getElementById("tuesday_cell").style.display = "none";
+                    document.getElementById("tuesday_8").style.display = "none";
+                    document.getElementById("tuesday_9").style.display = "none";
+                    document.getElementById("tuesday_10").style.display = "none";
+                    document.getElementById("tuesday_11").style.display = "none";
+                    document.getElementById("tuesday_12").style.display = "none";
+                    document.getElementById("tuesday_13").style.display = "none";
+                    document.getElementById("tuesday_14").style.display = "none";
+                    document.getElementById("tuesday_15").style.display = "none";
+                    document.getElementById("tuesday_16").style.display = "none";
+                    document.getElementById("tuesday_17").style.display = "none";
+                    document.getElementById("tuesday_18").style.display = "none";
+                    
+                     document.getElementById("wednesday_cell").style.display = "table-cell";
+                    document.getElementById("wednesday_8").style.display = "table-cell";
+                    document.getElementById("wednesday_9").style.display = "table-cell";
+                    document.getElementById("wednesday_10").style.display = "table-cell";
+                    document.getElementById("wednesday_11").style.display = "table-cell";
+                    document.getElementById("wednesday_12").style.display = "table-cell";
+                    document.getElementById("wednesday_13").style.display = "table-cell";
+                    document.getElementById("wednesday_14").style.display = "table-cell";
+                    document.getElementById("wednesday_15").style.display = "table-cell";
+                    document.getElementById("wednesday_16").style.display = "table-cell";
+                    document.getElementById("wednesday_17").style.display = "table-cell";
+                    document.getElementById("wednesday_18").style.display = "table-cell";
+        
+        
+        
+    }
+    
+    
+    else if(document.getElementById('wednesday_cell').style.display =="table-cell"){
+        
+                    document.getElementById("wednesday_cell").style.display = "none";
+                    document.getElementById("wednesday_8").style.display = "none";
+                    document.getElementById("wednesday_9").style.display = "none";
+                    document.getElementById("wednesday_10").style.display = "none";
+                    document.getElementById("wednesday_11").style.display = "none";
+                    document.getElementById("wednesday_12").style.display = "none";
+                    document.getElementById("wednesday_13").style.display = "none";
+                    document.getElementById("wednesday_14").style.display = "none";
+                    document.getElementById("wednesday_15").style.display = "none";
+                    document.getElementById("wednesday_16").style.display = "none";
+                    document.getElementById("wednesday_17").style.display = "none";
+                    document.getElementById("wednesday_18").style.display = "none";
+                    
+                    document.getElementById("thursday_cell").style.display = "table-cell";
+                    document.getElementById("thursday_8").style.display = "table-cell";
+                    document.getElementById("thursday_9").style.display = "table-cell";
+                    document.getElementById("thursday_10").style.display = "table-cell";
+                    document.getElementById("thursday_11").style.display = "table-cell";
+                    document.getElementById("thursday_12").style.display = "table-cell";
+                    document.getElementById("thursday_13").style.display = "table-cell";
+                    document.getElementById("thursday_14").style.display = "table-cell";
+                    document.getElementById("thursday_15").style.display = "table-cell";
+                    document.getElementById("thursday_16").style.display = "table-cell";
+                    document.getElementById("thursday_17").style.display = "table-cell";
+                    document.getElementById("thursday_18").style.display = "table-cell";
+                     
+                     document.getElementById("arrow-left").style.display = "inline";
+        
+        
+    }
+    
+     else if(document.getElementById('thursday_cell').style.display =="table-cell"){
+         
+                    document.getElementById("thursday_cell").style.display = "none";
+                    document.getElementById("thursday_8").style.display = "none";
+                    document.getElementById("thursday_9").style.display = "none";
+                    document.getElementById("thursday_10").style.display = "none";
+                    document.getElementById("thursday_11").style.display = "none";
+                    document.getElementById("thursday_12").style.display = "none";
+                    document.getElementById("thursday_13").style.display = "none";
+                    document.getElementById("thursday_14").style.display = "none";
+                    document.getElementById("thursday_15").style.display = "none";
+                    document.getElementById("thursday_16").style.display = "none";
+                    document.getElementById("thursday_17").style.display = "none";
+                    document.getElementById("thursday_18").style.display = "none";
+                    
+                    
+                    document.getElementById("friday_cell").style.display = "table-cell";
+                    document.getElementById("friday_8").style.display = "table-cell";
+                    document.getElementById("friday_9").style.display = "table-cell";
+                    document.getElementById("friday_10").style.display = "table-cell";
+                    document.getElementById("friday_11").style.display = "table-cell";
+                    document.getElementById("friday_12").style.display = "table-cell";
+                    document.getElementById("friday_13").style.display = "table-cell";
+                    document.getElementById("friday_14").style.display = "table-cell";
+                    document.getElementById("friday_15").style.display = "table-cell";
+                    document.getElementById("friday_16").style.display = "table-cell";
+                    document.getElementById("friday_17").style.display = "table-cell";
+                    document.getElementById("friday_18").style.display = "table-cell";
+                    
+                    document.getElementById("arrow-left").style.display = "inline";
+         
+     }
+     
+     
+     else if(document.getElementById('friday_cell').style.display =="table-cell"){
+         
+                    document.getElementById("friday_cell").style.display = "none";
+                    document.getElementById("friday_8").style.display = "none";
+                    document.getElementById("friday_9").style.display = "none";
+                    document.getElementById("friday_10").style.display = "none";
+                    document.getElementById("friday_11").style.display = "none";
+                    document.getElementById("friday_12").style.display = "none";
+                    document.getElementById("friday_13").style.display = "none";
+                    document.getElementById("friday_14").style.display = "none";
+                    document.getElementById("friday_15").style.display = "none";
+                    document.getElementById("friday_16").style.display = "none";
+                    document.getElementById("friday_17").style.display = "none";
+                    document.getElementById("friday_18").style.display = "none";
+                    
+                    document.getElementById("saturday_cell").style.display = "table-cell";
+                    document.getElementById("saturday_8").style.display = "table-cell";
+                    document.getElementById("saturday_9").style.display = "table-cell";
+                    document.getElementById("saturday_10").style.display = "table-cell";
+                    document.getElementById("saturday_11").style.display = "table-cell";
+                    document.getElementById("saturday_12").style.display = "table-cell";
+                    document.getElementById("saturday_13").style.display = "table-cell";
+                    document.getElementById("saturday_14").style.display = "table-cell";
+                    document.getElementById("saturday_15").style.display = "table-cell";
+                    document.getElementById("saturday_16").style.display = "table-cell";
+                    document.getElementById("saturday_17").style.display = "table-cell";
+                    document.getElementById("saturday_18").style.display = "table-cell";
+                    
+                    
+                    document.getElementById("arrow-left").style.display = "inline";
+          
+     }
+    
+    else if(document.getElementById('saturday_cell').style.display =="table-cell"){
+        
+                
+                    
+                
+                    document.getElementById("sunday_cell").style.display = "table-cell";
+                    document.getElementById("sunday_8").style.display = "table-cell";
+                    document.getElementById("sunday_9").style.display = "table-cell";
+                    document.getElementById("sunday_10").style.display = "table-cell";
+                    document.getElementById("sunday_11").style.display = "table-cell";
+                    document.getElementById("sunday_12").style.display = "table-cell";
+                    document.getElementById("sunday_13").style.display = "table-cell";
+                    document.getElementById("sunday_14").style.display = "table-cell";
+                    document.getElementById("sunday_15").style.display = "table-cell";
+                    document.getElementById("sunday_16").style.display = "table-cell";
+                    document.getElementById("sunday_17").style.display = "table-cell";
+                    document.getElementById("sunday_18").style.display = "table-cell";
+                    
+                    document.getElementById("saturday_cell").style.display = "none";
+                    document.getElementById("saturday_8").style.display = "none";
+                    document.getElementById("saturday_9").style.display = "none";
+                    document.getElementById("saturday_10").style.display = "none";
+                    document.getElementById("saturday_11").style.display = "none";
+                    document.getElementById("saturday_12").style.display = "none";
+                    document.getElementById("saturday_13").style.display = "none";
+                    document.getElementById("saturday_14").style.display = "none";
+                    document.getElementById("saturday_15").style.display = "none";
+                    document.getElementById("saturday_16").style.display = "none";
+                    document.getElementById("saturday_17").style.display = "none";
+                    document.getElementById("saturday_18").style.display = "none";
+                    
+                     document.getElementById("arrow-left").style.display = "inline";
+                      document.getElementById("arrow-right").style.display = "none";
+        
+    }
     
 }
         
 function movePrev(){
     
-    if(document.getElementById('tuesday_cell').style.display ="table-cell"){
+    if(document.getElementById('tuesday_cell').style.display =="table-cell"){
+        
+        console.log("tuesday to monday going back....")
         
                 document.getElementById("monday_cell").style.display = "table-cell";
                     document.getElementById("monday_8").style.display = "table-cell";
@@ -511,9 +697,198 @@ function movePrev(){
                     document.getElementById("tuesday_17").style.display = "none";
                     document.getElementById("tuesday_18").style.display = "none";
                     
+                    document.getElementById("wednesday_cell").style.display = "none";
+                    document.getElementById("wednesday_8").style.display = "none";
+                    document.getElementById("wednesday_9").style.display = "none";
+                    document.getElementById("wednesday_10").style.display = "none";
+                    document.getElementById("wednesday_11").style.display = "none";
+                    document.getElementById("wednesday_12").style.display = "none";
+                    document.getElementById("wednesday_13").style.display = "none";
+                    document.getElementById("wednesday_14").style.display = "none";
+                    document.getElementById("wednesday_15").style.display = "none";
+                    document.getElementById("wednesday_16").style.display = "none";
+                    document.getElementById("wednesday_17").style.display = "none";
+                    document.getElementById("wednesday_18").style.display = "none";
+                    
                      document.getElementById("arrow-left").style.display = "none";
+                     document.getElementById("arrow-right").style.display = "inline";
     }
     
+    else if(document.getElementById('wednesday_cell').style.display =="table-cell"){
+        
+                    document.getElementById("tuesday_cell").style.display = "table-cell";
+                    document.getElementById("tuesday_8").style.display = "table-cell";
+                    document.getElementById("tuesday_9").style.display = "table-cell";
+                    document.getElementById("tuesday_10").style.display = "table-cell";
+                    document.getElementById("tuesday_11").style.display = "table-cell";
+                    document.getElementById("tuesday_12").style.display = "table-cell";
+                    document.getElementById("tuesday_13").style.display = "table-cell";
+                    document.getElementById("tuesday_14").style.display = "table-cell";
+                    document.getElementById("tuesday_15").style.display = "table-cell";
+                    document.getElementById("tuesday_16").style.display = "table-cell";
+                    document.getElementById("tuesday_17").style.display = "table-cell";
+                    document.getElementById("tuesday_18").style.display = "table-cell";
+                    
+                     document.getElementById('monday_cell').style.display="none";
+                    document.getElementById("monday_8").style.display = "none";
+                    document.getElementById("monday_9").style.display = "none";
+                    document.getElementById("monday_10").style.display = "none";
+                    document.getElementById("monday_11").style.display = "none";
+                    document.getElementById("monday_12").style.display = "none";
+                    document.getElementById("monday_13").style.display = "none";
+                    document.getElementById("monday_14").style.display = "none";
+                    document.getElementById("monday_15").style.display = "none";
+                    document.getElementById("monday_16").style.display = "none";
+                    document.getElementById("monday_17").style.display = "none";
+                    document.getElementById("monday_18").style.display = "none";
+                    
+                    document.getElementById("wednesday_cell").style.display = "none";
+                    document.getElementById("wednesday_8").style.display = "none";
+                    document.getElementById("wednesday_9").style.display = "none";
+                    document.getElementById("wednesday_10").style.display = "none";
+                    document.getElementById("wednesday_11").style.display = "none";
+                    document.getElementById("wednesday_12").style.display = "none";
+                    document.getElementById("wednesday_13").style.display = "none";
+                    document.getElementById("wednesday_14").style.display = "none";
+                    document.getElementById("wednesday_15").style.display = "none";
+                    document.getElementById("wednesday_16").style.display = "none";
+                    document.getElementById("wednesday_17").style.display = "none";
+                    document.getElementById("wednesday_18").style.display = "none";
+                    
+                     document.getElementById("arrow-left").style.display = "inline";
+        
+    }
+    
+     else if(document.getElementById('thursday_cell').style.display =="table-cell"){
+         
+                    document.getElementById("wednesday_cell").style.display = "table-cell";
+                    document.getElementById("wednesday_8").style.display = "table-cell";
+                    document.getElementById("wednesday_9").style.display = "table-cell";
+                    document.getElementById("wednesday_10").style.display = "table-cell";
+                    document.getElementById("wednesday_11").style.display = "table-cell";
+                    document.getElementById("wednesday_12").style.display = "table-cell";
+                    document.getElementById("wednesday_13").style.display = "table-cell";
+                    document.getElementById("wednesday_14").style.display = "table-cell";
+                    document.getElementById("wednesday_15").style.display = "table-cell";
+                    document.getElementById("wednesday_16").style.display = "table-cell";
+                    document.getElementById("wednesday_17").style.display = "table-cell";
+                    document.getElementById("wednesday_18").style.display = "table-cell";
+                    
+                    document.getElementById("thursday_cell").style.display = "none";
+                    document.getElementById("thursday_8").style.display = "none";
+                    document.getElementById("thursday_9").style.display = "none";
+                    document.getElementById("thursday_10").style.display = "none";
+                    document.getElementById("thursday_11").style.display = "none";
+                    document.getElementById("thursday_12").style.display = "none";
+                    document.getElementById("thursday_13").style.display = "none";
+                    document.getElementById("thursday_14").style.display = "none";
+                    document.getElementById("thursday_15").style.display = "none";
+                    document.getElementById("thursday_16").style.display = "none";
+                    document.getElementById("thursday_17").style.display = "none";
+                    document.getElementById("thursday_18").style.display = "none";
+         
+         
+     }
+     
+     else if(document.getElementById('friday_cell').style.display =="table-cell"){
+         
+                    document.getElementById("thursday_cell").style.display = "table-cell";
+                    document.getElementById("thursday_8").style.display = "table-cell";
+                    document.getElementById("thursday_9").style.display = "table-cell";
+                    document.getElementById("thursday_10").style.display = "table-cell";
+                    document.getElementById("thursday_11").style.display = "table-cell";
+                    document.getElementById("thursday_12").style.display = "table-cell";
+                    document.getElementById("thursday_13").style.display = "table-cell";
+                    document.getElementById("thursday_14").style.display = "table-cell";
+                    document.getElementById("thursday_15").style.display = "table-cell";
+                    document.getElementById("thursday_16").style.display = "table-cell";
+                    document.getElementById("thursday_17").style.display = "table-cell";
+                    document.getElementById("thursday_18").style.display = "table-cell";
+         
+         
+                    document.getElementById("friday_cell").style.display = "none";
+                    document.getElementById("friday_8").style.display = "none";
+                    document.getElementById("friday_9").style.display = "none";
+                    document.getElementById("friday_10").style.display = "none";
+                    document.getElementById("friday_11").style.display = "none";
+                    document.getElementById("friday_12").style.display = "none";
+                    document.getElementById("friday_13").style.display = "none";
+                    document.getElementById("friday_14").style.display = "none";
+                    document.getElementById("friday_15").style.display = "none";
+                    document.getElementById("friday_16").style.display = "none";
+                    document.getElementById("friday_17").style.display = "none";
+                    document.getElementById("friday_18").style.display = "none";
+         
+                      
+     }
+     
+     else if(document.getElementById('saturday_cell').style.display =="table-cell"){
+         
+                    document.getElementById("friday_cell").style.display = "table-cell";
+                    document.getElementById("friday_8").style.display = "table-cell";
+                    document.getElementById("friday_9").style.display = "table-cell";
+                    document.getElementById("friday_10").style.display = "table-cell";
+                    document.getElementById("friday_11").style.display = "table-cell";
+                    document.getElementById("friday_12").style.display = "table-cell";
+                    document.getElementById("friday_13").style.display = "table-cell";
+                    document.getElementById("friday_14").style.display = "table-cell";
+                    document.getElementById("friday_15").style.display = "table-cell";
+                    document.getElementById("friday_16").style.display = "table-cell";
+                    document.getElementById("friday_17").style.display = "table-cell";
+                    document.getElementById("friday_18").style.display = "table-cell";
+                    
+                    document.getElementById("saturday_cell").style.display = "none";
+                    document.getElementById("saturday_8").style.display = "none";
+                    document.getElementById("saturday_9").style.display = "none";
+                    document.getElementById("saturday_10").style.display = "none";
+                    document.getElementById("saturday_11").style.display = "none";
+                    document.getElementById("saturday_12").style.display = "none";
+                    document.getElementById("saturday_13").style.display = "none";
+                    document.getElementById("saturday_14").style.display = "none";
+                    document.getElementById("saturday_15").style.display = "none";
+                    document.getElementById("saturday_16").style.display = "none";
+                    document.getElementById("saturday_17").style.display = "none";
+                    document.getElementById("saturday_18").style.display = "none";
+         
+         
+     }
+     
+      else if(document.getElementById('sunday_cell').style.display =="table-cell"){
+          
+                    document.getElementById("sunday_cell").style.display = "none";
+                    document.getElementById("sunday_8").style.display = "none";
+                    document.getElementById("sunday_9").style.display = "none";
+                    document.getElementById("sunday_10").style.display = "none";
+                    document.getElementById("sunday_11").style.display = "none";
+                    document.getElementById("sunday_12").style.display = "none";
+                    document.getElementById("sunday_13").style.display = "none";
+                    document.getElementById("sunday_14").style.display = "none";
+                    document.getElementById("sunday_15").style.display = "none";
+                    document.getElementById("sunday_16").style.display = "none";
+                    document.getElementById("sunday_17").style.display = "none";
+                    document.getElementById("sunday_18").style.display = "none";
+                    
+                    document.getElementById("saturday_cell").style.display = "table-cell";
+                    document.getElementById("saturday_8").style.display = "table-cell";
+                    document.getElementById("saturday_9").style.display = "table-cell";
+                    document.getElementById("saturday_10").style.display = "table-cell";
+                    document.getElementById("saturday_11").style.display = "table-cell";
+                    document.getElementById("saturday_12").style.display = "table-cell";
+                    document.getElementById("saturday_13").style.display = "table-cell";
+                    document.getElementById("saturday_14").style.display = "table-cell";
+                    document.getElementById("saturday_15").style.display = "table-cell";
+                    document.getElementById("saturday_16").style.display = "table-cell";
+                    document.getElementById("saturday_17").style.display = "table-cell";
+                    document.getElementById("saturday_18").style.display = "table-cell";
+                    
+                    
+                    
+                    
+          
+          
+          
+      }
+
     
     
 }

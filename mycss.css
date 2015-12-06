@@ -169,7 +169,7 @@
     
     p, .textInsideTaskDiv{
         
-        font-size: 20px;
+        font-size: 17px;
         
         
     }
@@ -241,7 +241,7 @@
     
     body {
             font-family: 'Roboto', sans-serif bold;
-            font-size:15px;
+            font-size:17px;
             background-color:#004050 !important;
     
             
@@ -256,6 +256,7 @@
                     z-index: 1000;
                     background-color:silver;
                     opacity: 0.93;
+                    
                     filter: alpha(opacity=93);
                 }
     
@@ -265,12 +266,15 @@
                         background: linear-gradient(orange,orange);
                         border:1px solid #000;
                         text-align:center;
+                        margin-left: 40%;
+                        margin-top: 50%;
     }
     
     
     #showform{ 
                         border-style: solid;
                         position: absolute;
+                        right: 50%;
                         border-width: 1px 4px 4px 1px;
                         text-decoration : none;
                         border-color : #69f #00f #00f #69f;
@@ -296,7 +300,7 @@
     .divtime{
                 /*font-family: 'Oswald', sans-serif;*/
                 font-family: 'Source Sans Pro', sans-serif;
-                font-size: 20px;
+                font-size: 15px;
                 /*background-color:#E0E0E0   ;*/
                 background-color: whitesmoke;
     }
