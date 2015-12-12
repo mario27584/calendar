@@ -76,7 +76,7 @@ function appendTask(element, name, color,id) {
                 newDiv.style.color = "black";
             
                 newDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
-                newDiv.contentEditable ="true";
+                // newDiv.contentEditable ="true";
                 newDiv.draggable="true";
                 newDiv.ondragstart=drag; 
                 
