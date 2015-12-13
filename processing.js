@@ -40,6 +40,7 @@ function processData() {
         
             //resizeChildren(elemList);
             checkWindowSize();   
+     //       alert("width is ---> "+document.body.clientWidth);
            
            
         
@@ -209,7 +210,7 @@ function checkWindowSize(){
     
     
     
-        if (document.body.clientWidth > 650){
+        if (document.body.clientWidth > 800){
           
             
                     document.getElementById("sunday_cell").style.display = "table-cell";
@@ -311,7 +312,7 @@ function checkWindowSize(){
             
             
             
-        else  if(document.body.clientWidth < 650)
+        else  if(document.body.clientWidth < 800)
         {
             
          // alert("width is ---> "+document.body.clientWidth);

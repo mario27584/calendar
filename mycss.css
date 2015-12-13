@@ -251,7 +251,7 @@
                     visibility: hidden;
                     position: absolute;
                     width:100%;
-                    height:140%;
+                    height:220%;
                     text-align:center;
                     z-index: 1000;
                     background-color:silver;
@@ -261,12 +261,12 @@
                 }
     
     #overlay form {
-                        width:70%;
+                        width:100%;
                         /*background-color:  #b0c4de;*/
                         background: linear-gradient(orange,orange);
                         border:1px solid #000;
                         text-align:center;
-                        margin-left: 5%;
+                        margin-left: 0%;
                         margin-top: 10%;
     }
     

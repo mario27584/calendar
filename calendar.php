@@ -33,17 +33,32 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 
 <form action="createTask.php" method="POST">
     <legend>Insert New Task</legend><br>
-   name: <input type="text" id="name" name="name"><br>
-   day: <input type="text" id="day" name="day" ><br>
-   time: <input type="text" id="time" name="time" ><br>
-   <br> <input type="submit" id="submit" value="submit" name="submit">
+ <div class="form-group">
+   <label for="name">name:</label>
+    <input type="text" class="form-control" id="name" name="name"><br>
+    </div>
+    
+     <div class="form-group">
+    <label for="day">day:</label>
+     <input type="text" class="form-control" id="day" name="day" ><br>
+   </div>
+    <div class="form-group">
+      <label for="time">time:</label>
+    <input type="text" class="form-control" id="time" name="time" ><br>
+   </div>
+   
+   
+   <br> <input type="submit" id="submit" value="submit" name="submit" class="btn btn-default"> 
   <a href="http://mvcalendar.azurewebsites.net/calendar.php">
-  <input type="button" value="Cancel">
+  <input type="button" value="Cancel" class="btn btn-default"> 
 </a>
+<br>
+<br>
 </form>
 <!------------------    end create task hidden form     --------------------------->
 </div>
 <!--------------------      end of hidden background div overlay  ------------------------------->
+
 
 
 
