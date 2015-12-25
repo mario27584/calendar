@@ -7,7 +7,7 @@
 }*/
 
 .navbar-custom1 .navbar-nav .open .dropdown-menu>li>a, .navbar-custom1 .navbar-nav .open .dropdown-menu {
-    background-color: orange;
+    background-color: #CFFF0D;
     color: #004050;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .navbar-custom1  {
-    background-color: orange;
+    background-color: #CFFF0D;
     background-image: none;
       
     
@@ -71,7 +71,7 @@
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
 	
-	border-left: 20px solid orange;
+	border-left: 20px solid #CFFF0D;
     display: inline;
 }
 
@@ -81,7 +81,7 @@
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
 	
-	border-right: 20px solid orange;
+	border-right: 20px solid #CFFF0D;
     display: none;
 }
 
@@ -210,8 +210,8 @@
             width: 150px;
             max-width: 150px;
             height:  50px;
-            border-right: 2px double blue;
-            border-bottom: 2px double blue;
+            border-right: 2px double black;
+            border-bottom: 2px double black;
             
         }
         
@@ -220,8 +220,8 @@
             
             color: black;
             font-weight: bold;
-            background-color: orange;
-            background: linear-gradient(orange,orange);
+            background-color: #CFFF0D;
+            background: linear-gradient(#CFFF0D,#CFFF0D);
             vertical-align: middle;
             text-shadow: 1px 0 darkblue;
             border-top-right-radius: 10%;
@@ -242,7 +242,7 @@
     body {
             font-family: 'Roboto', sans-serif bold;
             font-size:17px;
-            background-color:#004050 !important;
+            background-color:black !important;
     
             
         }
@@ -263,7 +263,7 @@
     #overlay form {
                         width:100%;
                         /*background-color:  #b0c4de;*/
-                        background: linear-gradient(orange,orange);
+                        background: linear-gradient(#CFFF0D,#CFFF0D);
                         border:1px solid #000;
                         text-align:center;
                         margin-left: 0%;
@@ -320,7 +320,7 @@
                         line-height:40px;
                         text-decoration:none;
                         text-align:center;
-                        background-color: orange;
+                        background-color: #CFFF0D;
                     
     }
     .button1:hover {

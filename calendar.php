@@ -82,7 +82,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Something else</a></li>
+        <li class="active"><a href="#">About Us</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -102,7 +102,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
   </div>
 </nav>
 <div class="container">
- <input type="submit" style="background:orange; color:black; font-weight: bold; " class='btn btn-warning' href'#' onclick='overlay()' value="Add a new task">
+ <input type="submit" style="background:#CFFF0D; border-color:#CFFF0D ;color:black; font-weight: bold; " class='btn btn-warning' href'#' onclick='overlay()' value="Add a new task">
  <br>
  <br>
 </div> 
