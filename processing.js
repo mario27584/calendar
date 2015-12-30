@@ -214,6 +214,7 @@ function checkWindowSize(){
           
             
                     document.getElementById("sunday_cell").style.display = "table-cell";
+                     document.getElementById("sunday_7").style.display = "table-cell";
                     document.getElementById("sunday_8").style.display = "table-cell";
                     document.getElementById("sunday_9").style.display = "table-cell";
                     document.getElementById("sunday_10").style.display = "table-cell";
@@ -225,8 +226,10 @@ function checkWindowSize(){
                     document.getElementById("sunday_16").style.display = "table-cell";
                     document.getElementById("sunday_17").style.display = "table-cell";
                     document.getElementById("sunday_18").style.display = "table-cell";
+                     document.getElementById("sunday_19").style.display = "table-cell";
                     
                     document.getElementById("saturday_cell").style.display = "table-cell";
+                    document.getElementById("saturday_7").style.display = "table-cell";
                     document.getElementById("saturday_8").style.display = "table-cell";
                     document.getElementById("saturday_9").style.display = "table-cell";
                     document.getElementById("saturday_10").style.display = "table-cell";
@@ -238,8 +241,10 @@ function checkWindowSize(){
                     document.getElementById("saturday_16").style.display = "table-cell";
                     document.getElementById("saturday_17").style.display = "table-cell";
                     document.getElementById("saturday_18").style.display = "table-cell";
+                    document.getElementById("saturday_19").style.display = "table-cell";
                     
                     document.getElementById("friday_cell").style.display = "table-cell";
+                    document.getElementById("friday_7").style.display = "table-cell";
                     document.getElementById("friday_8").style.display = "table-cell";
                     document.getElementById("friday_9").style.display = "table-cell";
                     document.getElementById("friday_10").style.display = "table-cell";
@@ -251,8 +256,10 @@ function checkWindowSize(){
                     document.getElementById("friday_16").style.display = "table-cell";
                     document.getElementById("friday_17").style.display = "table-cell";
                     document.getElementById("friday_18").style.display = "table-cell";
+                    document.getElementById("friday_19").style.display = "table-cell";
                     
                     document.getElementById("thursday_cell").style.display = "table-cell";
+                    document.getElementById("thursday_7").style.display = "table-cell";
                     document.getElementById("thursday_8").style.display = "table-cell";
                     document.getElementById("thursday_9").style.display = "table-cell";
                     document.getElementById("thursday_10").style.display = "table-cell";
@@ -264,8 +271,10 @@ function checkWindowSize(){
                     document.getElementById("thursday_16").style.display = "table-cell";
                     document.getElementById("thursday_17").style.display = "table-cell";
                     document.getElementById("thursday_18").style.display = "table-cell";
+                   document.getElementById("thursday_19").style.display = "table-cell";
                     
                     document.getElementById("wednesday_cell").style.display = "table-cell";
+                    document.getElementById("wednesday_7").style.display = "table-cell";
                     document.getElementById("wednesday_8").style.display = "table-cell";
                     document.getElementById("wednesday_9").style.display = "table-cell";
                     document.getElementById("wednesday_10").style.display = "table-cell";
@@ -277,8 +286,10 @@ function checkWindowSize(){
                     document.getElementById("wednesday_16").style.display = "table-cell";
                     document.getElementById("wednesday_17").style.display = "table-cell";
                     document.getElementById("wednesday_18").style.display = "table-cell";
+                    document.getElementById("wednesday_19").style.display = "table-cell";
                     
                     document.getElementById("tuesday_cell").style.display = "table-cell";
+                    document.getElementById("tuesday_7").style.display = "table-cell";
                     document.getElementById("tuesday_8").style.display = "table-cell";
                     document.getElementById("tuesday_9").style.display = "table-cell";
                     document.getElementById("tuesday_10").style.display = "table-cell";
@@ -290,8 +301,10 @@ function checkWindowSize(){
                     document.getElementById("tuesday_16").style.display = "table-cell";
                     document.getElementById("tuesday_17").style.display = "table-cell";
                     document.getElementById("tuesday_18").style.display = "table-cell";
+                    document.getElementById("tuesday_19").style.display = "table-cell";
                     
                     document.getElementById("monday_cell").style.display = "table-cell";
+                    document.getElementById("monday_7").style.display = "table-cell";
                     document.getElementById("monday_8").style.display = "table-cell";
                     document.getElementById("monday_9").style.display = "table-cell";
                     document.getElementById("monday_10").style.display = "table-cell";
@@ -303,6 +316,7 @@ function checkWindowSize(){
                     document.getElementById("monday_16").style.display = "table-cell";
                     document.getElementById("monday_17").style.display = "table-cell";
                     document.getElementById("monday_18").style.display = "table-cell";
+                    document.getElementById("monday_19").style.display = "table-cell";
                     
                     
                     
@@ -317,6 +331,7 @@ function checkWindowSize(){
             
          // alert("width is ---> "+document.body.clientWidth);
                     document.getElementById("sunday_cell").style.display = "none";
+                     document.getElementById("sunday_7").style.display = "none";
                     document.getElementById("sunday_8").style.display = "none";
                     document.getElementById("sunday_9").style.display = "none";
                     document.getElementById("sunday_10").style.display = "none";
@@ -328,8 +343,10 @@ function checkWindowSize(){
                     document.getElementById("sunday_16").style.display = "none";
                     document.getElementById("sunday_17").style.display = "none";
                     document.getElementById("sunday_18").style.display = "none";
+                    document.getElementById("sunday_19").style.display = "none";
                     
                     document.getElementById("saturday_cell").style.display = "none";
+                    document.getElementById("saturday_7").style.display = "none";
                     document.getElementById("saturday_8").style.display = "none";
                     document.getElementById("saturday_9").style.display = "none";
                     document.getElementById("saturday_10").style.display = "none";
@@ -341,8 +358,10 @@ function checkWindowSize(){
                     document.getElementById("saturday_16").style.display = "none";
                     document.getElementById("saturday_17").style.display = "none";
                     document.getElementById("saturday_18").style.display = "none";
+                    document.getElementById("saturday_19").style.display = "none";
                     
                     document.getElementById("friday_cell").style.display = "none";
+                    document.getElementById("friday_7").style.display = "none";
                     document.getElementById("friday_8").style.display = "none";
                     document.getElementById("friday_9").style.display = "none";
                     document.getElementById("friday_10").style.display = "none";
@@ -354,8 +373,10 @@ function checkWindowSize(){
                     document.getElementById("friday_16").style.display = "none";
                     document.getElementById("friday_17").style.display = "none";
                     document.getElementById("friday_18").style.display = "none";
+                    document.getElementById("friday_19").style.display = "none";
                     
                     document.getElementById("thursday_cell").style.display = "none";
+                    document.getElementById("thursday_7").style.display = "none";
                     document.getElementById("thursday_8").style.display = "none";
                     document.getElementById("thursday_9").style.display = "none";
                     document.getElementById("thursday_10").style.display = "none";
@@ -367,8 +388,10 @@ function checkWindowSize(){
                     document.getElementById("thursday_16").style.display = "none";
                     document.getElementById("thursday_17").style.display = "none";
                     document.getElementById("thursday_18").style.display = "none";
+                    document.getElementById("thursday_19").style.display = "none";
                     
                     document.getElementById("wednesday_cell").style.display = "none";
+                    document.getElementById("wednesday_7").style.display = "none";
                     document.getElementById("wednesday_8").style.display = "none";
                     document.getElementById("wednesday_9").style.display = "none";
                     document.getElementById("wednesday_10").style.display = "none";
@@ -380,8 +403,10 @@ function checkWindowSize(){
                     document.getElementById("wednesday_16").style.display = "none";
                     document.getElementById("wednesday_17").style.display = "none";
                     document.getElementById("wednesday_18").style.display = "none";
+                    document.getElementById("wednesday_19").style.display = "none";
                     
                     document.getElementById("tuesday_cell").style.display = "none";
+                    document.getElementById("tuesday_7").style.display = "none";
                     document.getElementById("tuesday_8").style.display = "none";
                     document.getElementById("tuesday_9").style.display = "none";
                     document.getElementById("tuesday_10").style.display = "none";
@@ -393,8 +418,10 @@ function checkWindowSize(){
                     document.getElementById("tuesday_16").style.display = "none";
                     document.getElementById("tuesday_17").style.display = "none";
                     document.getElementById("tuesday_18").style.display = "none";
+                    document.getElementById("tuesday_19").style.display = "none";
                     
                     document.getElementById("monday_cell").style.display = "table-cell";
+                    document.getElementById("monday_7").style.display = "table-cell";
                     document.getElementById("monday_8").style.display = "table-cell";
                     document.getElementById("monday_9").style.display = "table-cell";
                     document.getElementById("monday_10").style.display = "table-cell";
@@ -406,6 +433,7 @@ function checkWindowSize(){
                     document.getElementById("monday_16").style.display = "table-cell";
                     document.getElementById("monday_17").style.display = "table-cell";
                     document.getElementById("monday_18").style.display = "table-cell";
+                    document.getElementById("monday_19").style.display = "table-cell";
                     
                     document.getElementById("arrow-left").style.display = "none";
                     
@@ -450,6 +478,7 @@ function moveNext(){
     if(document.getElementById('monday_cell').style.display =="table-cell"){
         
                     document.getElementById('monday_cell').style.display="none";
+                    document.getElementById("monday_7").style.display = "none";
                     document.getElementById("monday_8").style.display = "none";
                     document.getElementById("monday_9").style.display = "none";
                     document.getElementById("monday_10").style.display = "none";
@@ -461,9 +490,11 @@ function moveNext(){
                     document.getElementById("monday_16").style.display = "none";
                     document.getElementById("monday_17").style.display = "none";
                     document.getElementById("monday_18").style.display = "none";
+                    document.getElementById("monday_19").style.display = "none";
                     
                     
                     document.getElementById("tuesday_cell").style.display = "table-cell";
+                    document.getElementById("tuesday_7").style.display = "table-cell";
                     document.getElementById("tuesday_8").style.display = "table-cell";
                     document.getElementById("tuesday_9").style.display = "table-cell";
                     document.getElementById("tuesday_10").style.display = "table-cell";
@@ -475,6 +506,7 @@ function moveNext(){
                     document.getElementById("tuesday_16").style.display = "table-cell";
                     document.getElementById("tuesday_17").style.display = "table-cell";
                     document.getElementById("tuesday_18").style.display = "table-cell";
+                    document.getElementById("tuesday_19").style.display = "table-cell";
                     
                     document.getElementById("arrow-left").style.display = "inline";
     }
@@ -484,6 +516,7 @@ function moveNext(){
         
         console.log("tuesday going to wedesday");
                      document.getElementById('monday_cell').style.display="none";
+                     document.getElementById("monday_7").style.display = "none";
                     document.getElementById("monday_8").style.display = "none";
                     document.getElementById("monday_9").style.display = "none";
                     document.getElementById("monday_10").style.display = "none";
@@ -495,8 +528,10 @@ function moveNext(){
                     document.getElementById("monday_16").style.display = "none";
                     document.getElementById("monday_17").style.display = "none";
                     document.getElementById("monday_18").style.display = "none";
+                    document.getElementById("monday_19").style.display = "none";
                     
                     document.getElementById("tuesday_cell").style.display = "none";
+                    document.getElementById("tuesday_7").style.display = "none";
                     document.getElementById("tuesday_8").style.display = "none";
                     document.getElementById("tuesday_9").style.display = "none";
                     document.getElementById("tuesday_10").style.display = "none";
@@ -508,8 +543,10 @@ function moveNext(){
                     document.getElementById("tuesday_16").style.display = "none";
                     document.getElementById("tuesday_17").style.display = "none";
                     document.getElementById("tuesday_18").style.display = "none";
+                    document.getElementById("tuesday_19").style.display = "none";
                     
                      document.getElementById("wednesday_cell").style.display = "table-cell";
+                     document.getElementById("wednesday_7").style.display = "table-cell";
                     document.getElementById("wednesday_8").style.display = "table-cell";
                     document.getElementById("wednesday_9").style.display = "table-cell";
                     document.getElementById("wednesday_10").style.display = "table-cell";
@@ -521,6 +558,7 @@ function moveNext(){
                     document.getElementById("wednesday_16").style.display = "table-cell";
                     document.getElementById("wednesday_17").style.display = "table-cell";
                     document.getElementById("wednesday_18").style.display = "table-cell";
+                    document.getElementById("wednesday_19").style.display = "table-cell";
         
         
         
@@ -530,6 +568,7 @@ function moveNext(){
     else if(document.getElementById('wednesday_cell').style.display =="table-cell"){
         
                     document.getElementById("wednesday_cell").style.display = "none";
+                     document.getElementById("wednesday_7").style.display = "none";
                     document.getElementById("wednesday_8").style.display = "none";
                     document.getElementById("wednesday_9").style.display = "none";
                     document.getElementById("wednesday_10").style.display = "none";
@@ -541,8 +580,10 @@ function moveNext(){
                     document.getElementById("wednesday_16").style.display = "none";
                     document.getElementById("wednesday_17").style.display = "none";
                     document.getElementById("wednesday_18").style.display = "none";
+                     document.getElementById("wednesday_19").style.display = "none";
                     
                     document.getElementById("thursday_cell").style.display = "table-cell";
+                    document.getElementById("thursday_7").style.display = "table-cell";
                     document.getElementById("thursday_8").style.display = "table-cell";
                     document.getElementById("thursday_9").style.display = "table-cell";
                     document.getElementById("thursday_10").style.display = "table-cell";
@@ -554,6 +595,7 @@ function moveNext(){
                     document.getElementById("thursday_16").style.display = "table-cell";
                     document.getElementById("thursday_17").style.display = "table-cell";
                     document.getElementById("thursday_18").style.display = "table-cell";
+                    document.getElementById("thursday_19").style.display = "table-cell";
                      
                      document.getElementById("arrow-left").style.display = "inline";
         
@@ -563,6 +605,7 @@ function moveNext(){
      else if(document.getElementById('thursday_cell').style.display =="table-cell"){
          
                     document.getElementById("thursday_cell").style.display = "none";
+                    document.getElementById("thursday_7").style.display = "none";
                     document.getElementById("thursday_8").style.display = "none";
                     document.getElementById("thursday_9").style.display = "none";
                     document.getElementById("thursday_10").style.display = "none";
@@ -574,9 +617,11 @@ function moveNext(){
                     document.getElementById("thursday_16").style.display = "none";
                     document.getElementById("thursday_17").style.display = "none";
                     document.getElementById("thursday_18").style.display = "none";
-                    
+                    document.getElementById("thursday_19").style.display = "none";
                     
                     document.getElementById("friday_cell").style.display = "table-cell";
+                    document.getElementById("friday_7").style.display = "table-cell";
+                    
                     document.getElementById("friday_8").style.display = "table-cell";
                     document.getElementById("friday_9").style.display = "table-cell";
                     document.getElementById("friday_10").style.display = "table-cell";
@@ -588,6 +633,7 @@ function moveNext(){
                     document.getElementById("friday_16").style.display = "table-cell";
                     document.getElementById("friday_17").style.display = "table-cell";
                     document.getElementById("friday_18").style.display = "table-cell";
+                    document.getElementById("friday_19").style.display = "table-cell";
                     
                     document.getElementById("arrow-left").style.display = "inline";
          
@@ -597,8 +643,9 @@ function moveNext(){
      else if(document.getElementById('friday_cell').style.display =="table-cell"){
          
                     document.getElementById("friday_cell").style.display = "none";
+                    document.getElementById("friday_7").style.display = "none";
                     document.getElementById("friday_8").style.display = "none";
-                    document.getElementById("friday_9").style.display = "none";
+                      document.getElementById("friday_9").style.display = "none";
                     document.getElementById("friday_10").style.display = "none";
                     document.getElementById("friday_11").style.display = "none";
                     document.getElementById("friday_12").style.display = "none";
@@ -608,8 +655,10 @@ function moveNext(){
                     document.getElementById("friday_16").style.display = "none";
                     document.getElementById("friday_17").style.display = "none";
                     document.getElementById("friday_18").style.display = "none";
+                   document.getElementById("friday_19").style.display = "none";
                     
                     document.getElementById("saturday_cell").style.display = "table-cell";
+                    document.getElementById("saturday_7").style.display = "table-cell";
                     document.getElementById("saturday_8").style.display = "table-cell";
                     document.getElementById("saturday_9").style.display = "table-cell";
                     document.getElementById("saturday_10").style.display = "table-cell";
@@ -621,7 +670,7 @@ function moveNext(){
                     document.getElementById("saturday_16").style.display = "table-cell";
                     document.getElementById("saturday_17").style.display = "table-cell";
                     document.getElementById("saturday_18").style.display = "table-cell";
-                    
+                    document.getElementById("saturday_19").style.display = "table-cell";
                     
                     document.getElementById("arrow-left").style.display = "inline";
           
@@ -633,6 +682,7 @@ function moveNext(){
                     
                 
                     document.getElementById("sunday_cell").style.display = "table-cell";
+                    document.getElementById("sunday_7").style.display = "table-cell";
                     document.getElementById("sunday_8").style.display = "table-cell";
                     document.getElementById("sunday_9").style.display = "table-cell";
                     document.getElementById("sunday_10").style.display = "table-cell";
@@ -644,8 +694,11 @@ function moveNext(){
                     document.getElementById("sunday_16").style.display = "table-cell";
                     document.getElementById("sunday_17").style.display = "table-cell";
                     document.getElementById("sunday_18").style.display = "table-cell";
-                    
+                    document.getElementById("sunday_19").style.display = "table-cell";
+                
+                
                     document.getElementById("saturday_cell").style.display = "none";
+                     document.getElementById("saturday_7").style.display = "none";
                     document.getElementById("saturday_8").style.display = "none";
                     document.getElementById("saturday_9").style.display = "none";
                     document.getElementById("saturday_10").style.display = "none";
@@ -657,6 +710,7 @@ function moveNext(){
                     document.getElementById("saturday_16").style.display = "none";
                     document.getElementById("saturday_17").style.display = "none";
                     document.getElementById("saturday_18").style.display = "none";
+                     document.getElementById("saturday_19").style.display = "none";
                     
                      document.getElementById("arrow-left").style.display = "inline";
                       document.getElementById("arrow-right").style.display = "none";
@@ -672,6 +726,7 @@ function movePrev(){
         console.log("tuesday to monday going back....")
         
                 document.getElementById("monday_cell").style.display = "table-cell";
+                 document.getElementById("monday_7").style.display = "table-cell";
                     document.getElementById("monday_8").style.display = "table-cell";
                     document.getElementById("monday_9").style.display = "table-cell";
                     document.getElementById("monday_10").style.display = "table-cell";
@@ -683,9 +738,11 @@ function movePrev(){
                     document.getElementById("monday_16").style.display = "table-cell";
                     document.getElementById("monday_17").style.display = "table-cell";
                     document.getElementById("monday_18").style.display = "table-cell";
+                    document.getElementById("monday_19").style.display = "table-cell";
             
             
                     document.getElementById("tuesday_cell").style.display = "none";
+                    document.getElementById("tuesday_7").style.display = "table-cell";
                     document.getElementById("tuesday_8").style.display = "none";
                     document.getElementById("tuesday_9").style.display = "none";
                     document.getElementById("tuesday_10").style.display = "none";
@@ -697,8 +754,10 @@ function movePrev(){
                     document.getElementById("tuesday_16").style.display = "none";
                     document.getElementById("tuesday_17").style.display = "none";
                     document.getElementById("tuesday_18").style.display = "none";
+                    document.getElementById("tuesday_19").style.display = "table-cell";
                     
                     document.getElementById("wednesday_cell").style.display = "none";
+                    document.getElementById("wednesday_7").style.display = "none";
                     document.getElementById("wednesday_8").style.display = "none";
                     document.getElementById("wednesday_9").style.display = "none";
                     document.getElementById("wednesday_10").style.display = "none";
@@ -710,6 +769,7 @@ function movePrev(){
                     document.getElementById("wednesday_16").style.display = "none";
                     document.getElementById("wednesday_17").style.display = "none";
                     document.getElementById("wednesday_18").style.display = "none";
+                    document.getElementById("wednesday_19").style.display = "none";
                     
                      document.getElementById("arrow-left").style.display = "none";
                      document.getElementById("arrow-right").style.display = "inline";
@@ -718,6 +778,7 @@ function movePrev(){
     else if(document.getElementById('wednesday_cell').style.display =="table-cell"){
         
                     document.getElementById("tuesday_cell").style.display = "table-cell";
+                    document.getElementById("tuesday_7").style.display = "table-cell";
                     document.getElementById("tuesday_8").style.display = "table-cell";
                     document.getElementById("tuesday_9").style.display = "table-cell";
                     document.getElementById("tuesday_10").style.display = "table-cell";
@@ -729,8 +790,10 @@ function movePrev(){
                     document.getElementById("tuesday_16").style.display = "table-cell";
                     document.getElementById("tuesday_17").style.display = "table-cell";
                     document.getElementById("tuesday_18").style.display = "table-cell";
+                    document.getElementById("tuesday_19").style.display = "table-cell";
                     
                      document.getElementById('monday_cell').style.display="none";
+                     document.getElementById("monday_7").style.display = "none";
                     document.getElementById("monday_8").style.display = "none";
                     document.getElementById("monday_9").style.display = "none";
                     document.getElementById("monday_10").style.display = "none";
@@ -742,8 +805,10 @@ function movePrev(){
                     document.getElementById("monday_16").style.display = "none";
                     document.getElementById("monday_17").style.display = "none";
                     document.getElementById("monday_18").style.display = "none";
+                    document.getElementById("monday_19").style.display = "table-cell";
                     
                     document.getElementById("wednesday_cell").style.display = "none";
+                     document.getElementById("wednesday_7").style.display = "table-cell";
                     document.getElementById("wednesday_8").style.display = "none";
                     document.getElementById("wednesday_9").style.display = "none";
                     document.getElementById("wednesday_10").style.display = "none";
@@ -755,6 +820,7 @@ function movePrev(){
                     document.getElementById("wednesday_16").style.display = "none";
                     document.getElementById("wednesday_17").style.display = "none";
                     document.getElementById("wednesday_18").style.display = "none";
+                     document.getElementById("wednesday_19").style.display = "table-cell";
                     
                      document.getElementById("arrow-left").style.display = "inline";
         
@@ -763,6 +829,7 @@ function movePrev(){
      else if(document.getElementById('thursday_cell').style.display =="table-cell"){
          
                     document.getElementById("wednesday_cell").style.display = "table-cell";
+                     document.getElementById("wednesday_7").style.display = "table-cell";
                     document.getElementById("wednesday_8").style.display = "table-cell";
                     document.getElementById("wednesday_9").style.display = "table-cell";
                     document.getElementById("wednesday_10").style.display = "table-cell";
@@ -774,8 +841,10 @@ function movePrev(){
                     document.getElementById("wednesday_16").style.display = "table-cell";
                     document.getElementById("wednesday_17").style.display = "table-cell";
                     document.getElementById("wednesday_18").style.display = "table-cell";
+                     document.getElementById("wednesday_19").style.display = "table-cell";
                     
                     document.getElementById("thursday_cell").style.display = "none";
+                     document.getElementById("thursday_8").style.display = "table-cell";
                     document.getElementById("thursday_8").style.display = "none";
                     document.getElementById("thursday_9").style.display = "none";
                     document.getElementById("thursday_10").style.display = "none";
@@ -787,6 +856,7 @@ function movePrev(){
                     document.getElementById("thursday_16").style.display = "none";
                     document.getElementById("thursday_17").style.display = "none";
                     document.getElementById("thursday_18").style.display = "none";
+                     document.getElementById("thursday_19").style.display = "table-cell";
          
          
      }
@@ -794,6 +864,7 @@ function movePrev(){
      else if(document.getElementById('friday_cell').style.display =="table-cell"){
          
                     document.getElementById("thursday_cell").style.display = "table-cell";
+                     document.getElementById("thursday_7").style.display = "table-cell";
                     document.getElementById("thursday_8").style.display = "table-cell";
                     document.getElementById("thursday_9").style.display = "table-cell";
                     document.getElementById("thursday_10").style.display = "table-cell";
@@ -805,9 +876,11 @@ function movePrev(){
                     document.getElementById("thursday_16").style.display = "table-cell";
                     document.getElementById("thursday_17").style.display = "table-cell";
                     document.getElementById("thursday_18").style.display = "table-cell";
+                    document.getElementById("thursday_19").style.display = "table-cell";
          
          
                     document.getElementById("friday_cell").style.display = "none";
+                     document.getElementById("friday_7").style.display = "none";
                     document.getElementById("friday_8").style.display = "none";
                     document.getElementById("friday_9").style.display = "none";
                     document.getElementById("friday_10").style.display = "none";
@@ -819,6 +892,7 @@ function movePrev(){
                     document.getElementById("friday_16").style.display = "none";
                     document.getElementById("friday_17").style.display = "none";
                     document.getElementById("friday_18").style.display = "none";
+                     document.getElementById("friday_19").style.display = "none";
          
                       
      }
@@ -826,6 +900,7 @@ function movePrev(){
      else if(document.getElementById('saturday_cell').style.display =="table-cell"){
          
                     document.getElementById("friday_cell").style.display = "table-cell";
+                    document.getElementById("friday_7").style.display = "table-cell";
                     document.getElementById("friday_8").style.display = "table-cell";
                     document.getElementById("friday_9").style.display = "table-cell";
                     document.getElementById("friday_10").style.display = "table-cell";
@@ -837,8 +912,10 @@ function movePrev(){
                     document.getElementById("friday_16").style.display = "table-cell";
                     document.getElementById("friday_17").style.display = "table-cell";
                     document.getElementById("friday_18").style.display = "table-cell";
+                    document.getElementById("friday_19").style.display = "table-cell";
                     
                     document.getElementById("saturday_cell").style.display = "none";
+                     document.getElementById("saturday_7").style.display = "none";
                     document.getElementById("saturday_8").style.display = "none";
                     document.getElementById("saturday_9").style.display = "none";
                     document.getElementById("saturday_10").style.display = "none";
@@ -850,6 +927,7 @@ function movePrev(){
                     document.getElementById("saturday_16").style.display = "none";
                     document.getElementById("saturday_17").style.display = "none";
                     document.getElementById("saturday_18").style.display = "none";
+                     document.getElementById("saturday_19").style.display = "none";
          
          
      }
@@ -857,6 +935,7 @@ function movePrev(){
       else if(document.getElementById('sunday_cell').style.display =="table-cell"){
           
                     document.getElementById("sunday_cell").style.display = "none";
+                    document.getElementById("sunday_7").style.display = "none";
                     document.getElementById("sunday_8").style.display = "none";
                     document.getElementById("sunday_9").style.display = "none";
                     document.getElementById("sunday_10").style.display = "none";
@@ -868,8 +947,11 @@ function movePrev(){
                     document.getElementById("sunday_16").style.display = "none";
                     document.getElementById("sunday_17").style.display = "none";
                     document.getElementById("sunday_18").style.display = "none";
+                    document.getElementById("sunday_19").style.display = "none";
+                    
                     
                     document.getElementById("saturday_cell").style.display = "table-cell";
+                     document.getElementById("saturday_7").style.display = "table-cell";
                     document.getElementById("saturday_8").style.display = "table-cell";
                     document.getElementById("saturday_9").style.display = "table-cell";
                     document.getElementById("saturday_10").style.display = "table-cell";
@@ -881,6 +963,7 @@ function movePrev(){
                     document.getElementById("saturday_16").style.display = "table-cell";
                     document.getElementById("saturday_17").style.display = "table-cell";
                     document.getElementById("saturday_18").style.display = "table-cell";
+                     document.getElementById("saturday_19").style.display = "table-cell";
                     
                     
                     
