@@ -727,22 +727,22 @@ function movePrev(){
         
                 document.getElementById("monday_cell").style.display = "table-cell";
                  document.getElementById("monday_7").style.display = "table-cell";
-                    document.getElementById("monday_8").style.display = "table-cell";
-                    document.getElementById("monday_9").style.display = "table-cell";
-                    document.getElementById("monday_10").style.display = "table-cell";
-                    document.getElementById("monday_11").style.display = "table-cell";
-                    document.getElementById("monday_12").style.display = "table-cell";
-                    document.getElementById("monday_13").style.display = "table-cell";
-                    document.getElementById("monday_14").style.display = "table-cell";
-                    document.getElementById("monday_15").style.display = "table-cell";
-                    document.getElementById("monday_16").style.display = "table-cell";
-                    document.getElementById("monday_17").style.display = "table-cell";
-                    document.getElementById("monday_18").style.display = "table-cell";
-                    document.getElementById("monday_19").style.display = "table-cell";
+                 document.getElementById("monday_8").style.display = "table-cell";
+                 document.getElementById("monday_9").style.display = "table-cell";
+                 document.getElementById("monday_10").style.display = "table-cell";
+                 document.getElementById("monday_11").style.display = "table-cell";
+                 document.getElementById("monday_12").style.display = "table-cell";
+                 document.getElementById("monday_13").style.display = "table-cell";
+                 document.getElementById("monday_14").style.display = "table-cell";
+                 document.getElementById("monday_15").style.display = "table-cell";
+                 document.getElementById("monday_16").style.display = "table-cell";
+                 document.getElementById("monday_17").style.display = "table-cell";
+                 document.getElementById("monday_18").style.display = "table-cell";
+                 document.getElementById("monday_19").style.display = "table-cell";
             
             
                     document.getElementById("tuesday_cell").style.display = "none";
-                    document.getElementById("tuesday_7").style.display = "table-cell";
+                    document.getElementById("tuesday_7").style.display = "none";
                     document.getElementById("tuesday_8").style.display = "none";
                     document.getElementById("tuesday_9").style.display = "none";
                     document.getElementById("tuesday_10").style.display = "none";
@@ -754,7 +754,7 @@ function movePrev(){
                     document.getElementById("tuesday_16").style.display = "none";
                     document.getElementById("tuesday_17").style.display = "none";
                     document.getElementById("tuesday_18").style.display = "none";
-                    document.getElementById("tuesday_19").style.display = "table-cell";
+                    document.getElementById("tuesday_19").style.display = "none";
                     
                     document.getElementById("wednesday_cell").style.display = "none";
                     document.getElementById("wednesday_7").style.display = "none";
@@ -805,10 +805,10 @@ function movePrev(){
                     document.getElementById("monday_16").style.display = "none";
                     document.getElementById("monday_17").style.display = "none";
                     document.getElementById("monday_18").style.display = "none";
-                    document.getElementById("monday_19").style.display = "table-cell";
+                    document.getElementById("monday_19").style.display = "none";
                     
                     document.getElementById("wednesday_cell").style.display = "none";
-                     document.getElementById("wednesday_7").style.display = "table-cell";
+                     document.getElementById("wednesday_7").style.display = "none";
                     document.getElementById("wednesday_8").style.display = "none";
                     document.getElementById("wednesday_9").style.display = "none";
                     document.getElementById("wednesday_10").style.display = "none";
@@ -820,7 +820,7 @@ function movePrev(){
                     document.getElementById("wednesday_16").style.display = "none";
                     document.getElementById("wednesday_17").style.display = "none";
                     document.getElementById("wednesday_18").style.display = "none";
-                     document.getElementById("wednesday_19").style.display = "table-cell";
+                     document.getElementById("wednesday_19").style.display = "none";
                     
                      document.getElementById("arrow-left").style.display = "inline";
         
@@ -844,7 +844,7 @@ function movePrev(){
                      document.getElementById("wednesday_19").style.display = "table-cell";
                     
                     document.getElementById("thursday_cell").style.display = "none";
-                     document.getElementById("thursday_8").style.display = "table-cell";
+                     document.getElementById("thursday_7").style.display = "none";
                     document.getElementById("thursday_8").style.display = "none";
                     document.getElementById("thursday_9").style.display = "none";
                     document.getElementById("thursday_10").style.display = "none";
@@ -856,7 +856,7 @@ function movePrev(){
                     document.getElementById("thursday_16").style.display = "none";
                     document.getElementById("thursday_17").style.display = "none";
                     document.getElementById("thursday_18").style.display = "none";
-                     document.getElementById("thursday_19").style.display = "table-cell";
+                     document.getElementById("thursday_19").style.display = "none";
          
          
      }

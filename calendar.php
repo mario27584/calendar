@@ -153,7 +153,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
         </div>
         <div class="Cell" id="sunday_cell">
             <p>Sunday</p>
-        </div>f
+        </div>
     </div>
     
  <!--------------------    end table headings horizontal  ------------------->
