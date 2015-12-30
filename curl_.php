@@ -87,10 +87,11 @@ preg_match_all($pattern,$html,$matches );
    for($j=0; $j < sizeof($matches[1]); $j++){
         // print("<ol >");
          print("<li class='list-group-item active' style='width:100%;'>");
-         print ($matches[2][$j].":<br>");
-         print($matches[1][$j]."</li><br>");
+         print ("<h3>".$matches[2][$j].":</h3>");
+       //  print("<a href=\"".$matches[1][$j]."\">".$matches[1][$j]."</a></li><br>");
          
-        
+       print("<a style='color:white;' href=\"".$matches[1][$j]."\">".$matches[1][$j]."</a></li><br>");
+
         
         
       }
