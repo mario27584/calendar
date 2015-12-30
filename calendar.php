@@ -160,6 +160,36 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
  
  
 <!--begining time cells and cells to populate inside the table -------------------------------- -->
+   <div id="_7" class="Rowe">
+        <div class="Cell">
+            <p>7</p>
+        </div>
+        <div id="monday_7" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+        <div id="tuesday_7" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+          
+        </div>
+         <div id="wednesday_7" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+         <div id="thursday_7" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+         <div id="friday_7" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+           
+        </div>
+        
+          <div id="saturday_7" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+         <div id="sunday_7" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)" >
+        
+    </div>
+    </div>
+   
+   
+     
     <div id="_8" class="Rowe">
         <div class="Cell">
             <p>8</p>
@@ -468,6 +498,34 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
             
         </div>
          <div id="sunday_18" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)" >
+        
+    </div>
+    </div>
+    
+    <div id="_19" class="Rowe">
+        <div class="Cell">
+            <p>19</p>
+        </div>
+        <div id="monday_19" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+        <div id="tuesday_19" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+          
+        </div>
+         <div id="wednesday_19" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+         <div id="thursday_19" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+         <div id="friday_19" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+           
+        </div>
+        
+          <div id="saturday_19" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+         <div id="sunday_19" class="divtime" ondrop="drop(event)" ondragover="allowDrop(event)" >
         
     </div>
     </div>
