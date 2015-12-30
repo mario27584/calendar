@@ -21,6 +21,8 @@ $matches="";
 
 preg_match_all($pattern,$html,$matches );
 
+$size = sizeof($matches[1]);
+
 //echo "Number of movie trailers: ".sizeof($matches[1])."\n<br>";
 
 $poster_pattern='/(?:img)*(?:src)="http:\/\/cdn.*[^>]/';
@@ -81,30 +83,54 @@ preg_match_all($poster_pattern,$html,$poster);
 </nav>
 
 <div class="container">
-<ol class="list-group">
+    <div class="row">
+<ol class="list-group col-lg-6">
     
 
-    <h2 style="color:#337ab7; font-weight: bold; "> New Movies:</h2>
+    <h2 style="color:#CFFF0D; font-weight: bold; "> New Movies:</h2>
     <br>
 <?php
 
 
-   for($j=0; $j < sizeof($matches[1]); $j++){
+
+   for($j=0; $j < ($size/2)+2; $j++){
         // print("<ol >");
-                print("<li class='list-group-item active' style='width:100%; color:black'; font-weight: bold;>");
-                print ("<h3>".$matches[2][$j].":</h3>");
+                print("<li class='list-group-item active' style= 'width:100%; color:black; background-color: #CFFF0D;'>");
+                print ("<h4><b>".$matches[2][$j].":</b></h4>");
             //  print("<a href=\"".$matches[1][$j]."\">".$matches[1][$j]."</a></li><br>");
                 
             print("<a style='color:black;' href=\"".$matches[1][$j]."\">".$matches[1][$j]."</a></li><br>");
     
       }
+      
+?>
 
-    for($j=0; $j < sizeof($poster[0]); $j++){
+</ol>
+
+<br><br><br><br>
+
+<ol class="list-group col-lg-6">
+
+<?php      
+   for($j=($size/2)+2; $j < sizeof($matches[1]); $j++){
+        // print("<ol >");
+                print("<li class='list-group-item active' style= 'width:100%; color:black; background-color: #CFFF0D;'>");
+                print ("<h4><b>".$matches[2][$j].":</b></h4>");
+            //  print("<a href=\"".$matches[1][$j]."\">".$matches[1][$j]."</a></li><br>");
+                
+            print("<a style='color:black;' href=\"".$matches[1][$j]."\">".$matches[1][$j]."</a></li><br>");
     
-                print("<p>".$poster[0][$j]."</p>");
+      }    
+      
+      
+      
+
+//     for($j=0; $j < sizeof($poster[0]); $j++){
+    
+//                 print("<p>".$poster[0][$j]."</p>");
     
     
-}
+// }
 
 
 // $url = 'http://www.traileraddict.com/trailer/movie
@@ -126,7 +152,7 @@ preg_match_all($poster_pattern,$html,$poster);
 ?>
 
             </ol>
-       
+       <div class="row">
 </div>
 
 </body>
