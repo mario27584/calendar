@@ -118,14 +118,7 @@
     
 }
 
- @media (max-width: 600px) {
-   
-    
-    #sunday_cell,#sunday_8,#sunday_9,#sunday_10,#sunday_11,#sunday_12,#sunday_13,#sunday_14,#sunday_15,#sunday_16,#sunday_17,#sunday_18 {
-        display: none;
-    }
-    
-}
+
 
 
 @media (max-width: 600px) {
@@ -164,6 +157,35 @@
     
 }  
  */
+ 
+ 
+  @media (max-width: 900px) {
+   
+    
+   #arrow-right{
+        right: 300px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+   
+    
+   #arrow-right{
+        right: -10px;
+    }
+    
+}
+
+
+@media (max-width: 200px) {
+   
+    
+   #arrow-right{
+        right:-100px;
+    }
+    
+}
 
    
     

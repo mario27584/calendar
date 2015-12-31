@@ -823,6 +823,7 @@ function movePrev(){
                      document.getElementById("wednesday_19").style.display = "none";
                     
                      document.getElementById("arrow-left").style.display = "inline";
+                     document.getElementById("arrow-right").style.display = "inline";
         
     }
     
@@ -857,6 +858,9 @@ function movePrev(){
                     document.getElementById("thursday_17").style.display = "none";
                     document.getElementById("thursday_18").style.display = "none";
                      document.getElementById("thursday_19").style.display = "none";
+                     
+                     document.getElementById("arrow-left").style.display = "inline";
+                     document.getElementById("arrow-right").style.display = "inline";
          
          
      }
@@ -893,6 +897,9 @@ function movePrev(){
                     document.getElementById("friday_17").style.display = "none";
                     document.getElementById("friday_18").style.display = "none";
                      document.getElementById("friday_19").style.display = "none";
+                     
+                     document.getElementById("arrow-left").style.display = "inline";
+                     document.getElementById("arrow-right").style.display = "inline";
          
                       
      }
@@ -928,7 +935,12 @@ function movePrev(){
                     document.getElementById("saturday_17").style.display = "none";
                     document.getElementById("saturday_18").style.display = "none";
                      document.getElementById("saturday_19").style.display = "none";
+                     
+                     
+                     document.getElementById("arrow-left").style.display = "inline";
+                     document.getElementById("arrow-right").style.display = "inline";
          
+                    
          
      }
      
@@ -967,7 +979,8 @@ function movePrev(){
                     
                     
                     
-                    
+                    document.getElementById("arrow-left").style.display = "inline";
+                     document.getElementById("arrow-right").style.display = "inline";
           
           
           
