@@ -29,6 +29,7 @@ function processData() {
             console.log("function is called");
             var elemList = [];
             for (var i = 0; i < tasks.length; i++) {
+                console.log("printing each element of tasks array : "+tasks[i].time+", "+tasks[i].day+", "+tasks[i].name);
                 var time = "_" + tasks[i].time;
                 var day = tasks[i].day;
                 var element = findTaskSpot(time, day+time);

@@ -34,21 +34,21 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
 <form action="createTask.php" method="POST">
     <legend>Insert New Task</legend><br>
  <div class="form-group">
-   <label for="name">name:</label>
+   <label for="name">Name:</label>
     <input type="text" class="form-control" id="name" name="name"><br>
     </div>
     
      <div class="form-group">
-    <label for="day">day:</label>
+    <label for="day">Day:</label>
      <input type="text" class="form-control" id="day" name="day" ><br>
    </div>
     <div class="form-group">
-      <label for="time">time:</label>
+      <label for="time">Time:</label>
     <input type="text" class="form-control" id="time" name="time" ><br>
    </div>
    
    
-   <br> <input type="submit" id="submit" value="submit" name="submit" class="btn btn-default"> 
+   <br> <input type="submit" id="submit" value="Submit" name="submit" class="btn btn-default"> 
   <a href="http://mvcalendar.azurewebsites.net/calendar.php">
   <input type="button" value="Cancel" class="btn btn-default"> 
 </a>

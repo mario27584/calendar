@@ -25,7 +25,7 @@ while($row = mysqli_fetch_assoc($result))
          
       }
    
-  //  echo json_encode($class_array);
+   echo json_encode($class_array);
       
      echo "<script> var tasks=".json_encode($class_array)."</script>";
  

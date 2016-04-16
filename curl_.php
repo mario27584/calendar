@@ -93,7 +93,7 @@ preg_match_all($poster_pattern,$html,$poster);
 
 
 
-   for($j=0; $j < ($size/2)+2; $j++){
+   for($j=0; $j < ($size/2); $j++){
         // print("<ol >");
                 print("<li class='list-group-item active' style= 'width:100%; color:black; background-color: #CFFF0D;'>");
                 print ("<h4><b>".$matches[2][$j].":</b></h4>");
@@ -112,7 +112,7 @@ preg_match_all($poster_pattern,$html,$poster);
 <ol class="list-group col-lg-6">
 
 <?php      
-   for($j=($size/2)+2; $j < sizeof($matches[1]); $j++){
+   for($j=($size/2)+1; $j < sizeof($matches[1]); $j++){
         // print("<ol >");
                 print("<li class='list-group-item active' style= 'width:100%; color:black; background-color: #CFFF0D;'>");
                 print ("<h4><b>".$matches[2][$j].":</b></h4>");
