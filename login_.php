@@ -105,7 +105,7 @@ else {
 	<div class="container">
 
       <form class="form-signin" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>" >
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">&nbsp;&nbsp;&nbsp;Sign in to Calendar</h2>
         <label for="inputEmail" class="sr-only">Username</label>
         <input type="text" id="name" name="name"  class="form-control" placeholder="User Name" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>

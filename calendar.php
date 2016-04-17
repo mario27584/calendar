@@ -102,7 +102,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
   </div>
 </nav>
 <div class="container">
- <input type="submit" style="background:#CFFF0D; border-color:#CFFF0D ;color:black; font-weight: bold; " class='btn btn-warning' href'#' onclick='overlay()' value="Add a new task">
+ <input type="submit" style="background:#337ab7; border-color:#337ab7 ;color:black; font-weight: bold; " class='btn btn-warning' href'#' onclick='overlay()' value="Add a new task">
  <br>
  <br>
 </div> 

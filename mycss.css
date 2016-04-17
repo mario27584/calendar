@@ -7,8 +7,8 @@
 }*/
 
 .navbar-custom1 .navbar-nav .open .dropdown-menu>li>a, .navbar-custom1 .navbar-nav .open .dropdown-menu {
-    background-color: #CFFF0D;
-    color: #004050;
+    background-color: #337ab7;
+    color: #333;
 }
 
 .nav>li>a:focus{
@@ -24,21 +24,21 @@
 }
 
 .navbar-custom1  {
-    background-color: #CFFF0D;
+    background-color: #337ab7;
     background-image: none;
       
     
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-    background-color: #004050 !important; 
+    background-color: #333 !important; 
     border-color: #337ab7;
 }
 
 .navbar-custom1  .nav > li > a:hover{
     
     
-    background-color: #004050;
+    background-color: #333;
 }
 
 .navbar-custom1  .navbar-brand {
@@ -71,7 +71,7 @@
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
 	
-	border-left: 20px solid #CFFF0D;
+	border-left: 20px solid #337ab7;
     display: inline;
 }
 
@@ -81,7 +81,7 @@
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
 	
-	border-right: 20px solid #CFFF0D;
+	border-right: 20px solid #337ab7;
     display: none;
 }
 
@@ -242,8 +242,8 @@
             
             color: black;
             font-weight: bold;
-            background-color: #CFFF0D;
-            background: linear-gradient(#CFFF0D,#CFFF0D);
+            background-color: #337ab7;
+            background: linear-gradient(#337ab7,#337ab7);
             vertical-align: middle;
             text-shadow: 1px 0 darkblue;
             border-top-right-radius: 10%;
@@ -264,7 +264,7 @@
     body {
             font-family: 'Roboto', sans-serif bold;
             font-size:17px;
-            background-color:black !important;
+            background-color:#333 !important;
     
             
         }
@@ -285,7 +285,7 @@
     #overlay form {
                         width:100%;
                         /*background-color:  #b0c4de;*/
-                        background: linear-gradient(#CFFF0D,#CFFF0D);
+                        background: linear-gradient(#337ab7,#337ab7);
                         border:1px solid #000;
                         text-align:center;
                         margin-left: 0%;
@@ -342,12 +342,12 @@
                         line-height:40px;
                         text-decoration:none;
                         text-align:center;
-                        background-color: #CFFF0D;
+                        background-color: #337ab7;
                     
     }
     .button1:hover {
         
-                        background-color:#004050;
+                        background-color:#333;
                         text-shadow: 1px 0 darkblue;
                         color:white;
     }
