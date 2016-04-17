@@ -1,7 +1,7 @@
   body {
             font-family: 'Roboto', sans-serif bold;
             font-size:17px;
-            background-color:black !important;
+            background-color:#333 !important;
     
             
         }
@@ -9,7 +9,7 @@
         
 .list-group li:hover {
     
-    background-color:#337ab7 !important;
+    background-color:#333 !important;
    
     display: block;
     
@@ -17,7 +17,7 @@
 
 
 .navbar-custom1 .navbar-nav .open .dropdown-menu>li>a, .navbar-custom1 .navbar-nav .open .dropdown-menu {
-    background-color: #CFFF0D;
+    background-color: #337ab7;
     color: #004050;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .navbar-custom1  {
-    background-color: #CFFF0D;
+    background-color: #337ab7;
     background-image: none;
       
     
@@ -42,7 +42,7 @@
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     background-color: #337ab7 !important; 
-    border-color: #337ab7;
+    border-color: #333;
 }
 
 .navbar-custom1  .nav > li > a:hover{

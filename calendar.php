@@ -92,10 +92,10 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
           </ul>
         </li>
         <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li><a href="http://mvcalendar.azurewebsites.net/curl_.php">Movies</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="http://mvwordpress.azurewebsites.net/"><span class="glyphicon glyphicon-user"></span> WordPress Site</a></li>
         <li><a href="logout_.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
       </ul>
     </div>

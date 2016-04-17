@@ -50,7 +50,7 @@ preg_match_all($poster_pattern,$html,$poster);
 <body style="background-color=black;">
     
     
-<nav class="navbar navbar-static-top navbar-custom1 "  style="background-color:#CFFF0D; color:black; font-weight: bold;">
+<nav class="navbar navbar-static-top navbar-custom1 "  style="background-color:#337ab7; color:black; font-weight: bold;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -75,7 +75,7 @@ preg_match_all($poster_pattern,$html,$poster);
         <li><a href="#">Page 3</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Home</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
       </ul>
     </div>
@@ -87,7 +87,7 @@ preg_match_all($poster_pattern,$html,$poster);
 <ol class="list-group col-lg-6">
     
 
-    <h2 style="color:#CFFF0D; font-weight: bold; "> New Movies:</h2>
+    <h2 style="color:black; font-weight: bold; "> New Movies :</h2>
     <br>
 <?php
 
@@ -95,7 +95,7 @@ preg_match_all($poster_pattern,$html,$poster);
 
    for($j=0; $j < ($size/2); $j++){
         // print("<ol >");
-                print("<li class='list-group-item active' style= 'width:100%; color:black; background-color: #CFFF0D;'>");
+                print("<li class='list-group-item active' style= 'width:100%; color:black; background-color: #337ab7;'>");
                 print ("<h4><b>".$matches[2][$j].":</b></h4>");
             //  print("<a href=\"".$matches[1][$j]."\">".$matches[1][$j]."</a></li><br>");
                 
@@ -114,7 +114,7 @@ preg_match_all($poster_pattern,$html,$poster);
 <?php      
    for($j=($size/2)+1; $j < sizeof($matches[1]); $j++){
         // print("<ol >");
-                print("<li class='list-group-item active' style= 'width:100%; color:black; background-color: #CFFF0D;'>");
+                print("<li class='list-group-item active' style= 'width:100%; color:black; background-color: #337ab7;'>");
                 print ("<h4><b>".$matches[2][$j].":</b></h4>");
             //  print("<a href=\"".$matches[1][$j]."\">".$matches[1][$j]."</a></li><br>");
                 
