@@ -9,6 +9,25 @@ $connection = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_err
 
 //$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($connection));
 
+session_start(); 
+
+if (!$_SESSION['auth'] == 1) { 
+
+   
+
+	echo "<script language=javascript>
+
+			alert('Please Log In.');
+
+			window.location.href='login_.php';
+
+		</script>";
+
+
+
+} 
+
+
 
       //fetch table rows from mysql db
      
