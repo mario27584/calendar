@@ -45,7 +45,7 @@ if (isset($_POST['name']) || isset($_POST['pass'])) {
 	$query = "SELECT user_name, password FROM users WHERE user_name = '" . $_POST['name'] . "' AND password = '" . $_POST['pass'] . "'";
 	
     // execute query 
-    $result = mysqli_query($conn,$query);
+    $result = mysqli_query($connection,$query);
 	var_dump($result);
  	
     // see if any rows were returned 
@@ -56,8 +56,8 @@ if (isset($_POST['name']) || isset($_POST['pass'])) {
         // create session and set cookie with username 
         session_start();
 		$query  = "UPDATE users SET Logged_in=1 WHERE user_name ='" .$_POST['name']."'";
-         mysqli_query($conn, $query);
-		die( $query);
+         mysqli_query($connection, $query);
+		//die( $query);
 
         $_SESSION['auth'] = 1;
 	
