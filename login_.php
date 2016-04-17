@@ -57,7 +57,7 @@ if (isset($_POST['name']) || isset($_POST['pass'])) {
         session_start();
 		$query  = "UPDATE users SET Logged_in=1 WHERE user_name ='" .$_POST['name']."'";
          mysqli_query($conn, $query);
-		/////////// die( $query);
+		die( $query);
 
         $_SESSION['auth'] = 1;
 	
