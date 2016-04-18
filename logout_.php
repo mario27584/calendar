@@ -28,5 +28,5 @@ mysqli_query($connection,$query);
 //setcookie("user_name", NULL, mktime() - 3600, "/");
 $_SESSION['auth'] = 0; 
 session_destroy();
-header('Location: login'); 
+header('Location: login.php'); 
 ?>

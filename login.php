@@ -63,7 +63,7 @@ if (isset($_POST['name']) || isset($_POST['pass'])) {
 	
         setcookie("Username", $_POST['name'], time() + (184600 * 30));
 		$user= $_POST['name'];	
-        header('Location: calendar');
+        header('Location: calendar.php');
         echo "Access granted!"; 
         
     } else {
@@ -71,7 +71,7 @@ if (isset($_POST['name']) || isset($_POST['pass'])) {
         // authentication failed 
         echo "<script language=javascript>
             alert('Please enter a valid username and password.');
-            window.location.href='login';
+            window.location.href='login.php';
         </script>"; //"ERROR: Incorrect username or password!";
         
     }

@@ -19,7 +19,7 @@ if (!$_SESSION['auth'] == 1) {
 
 			alert('Please Log In.');
 
-			window.location.href='login';
+			window.location.href='login.php';
 
 		</script>";
 
@@ -106,7 +106,7 @@ preg_match_all($poster_pattern,$html,$poster);
         <li><a href="http://mvwordpress.azurewebsites.net/">WordPress Site</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://mvcalendar.azurewebsites.net/calendar"><span class="glyphicon glyphicon-calendar"></span>Calendar</a></li>
+        <li><a href="http://mvcalendar.azurewebsites.net/calendar.php"><span class="glyphicon glyphicon-calendar"></span>Calendar</a></li>
         <li><a href="logout_.php"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
       </ul>
     </div>
