@@ -5,7 +5,7 @@ var show =  1;
         
         
         
-var colors = ['olive','magenta','lime','purple','cyan','red', 'green', 'blue', 'yellow','#FF4848','#6633FF'];
+var colors = ['#558C89','#74AFAD','#D9853B','#ECECEA','#DE1B1B','#E9E581', '#4A96AD', '#FFE658', '#C1E1A6','#FF9009','#DF3D82','#CBE32D'];
         
         //myDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
         
