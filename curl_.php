@@ -1,4 +1,35 @@
 <?php
+
+include 'credentials.php';
+
+
+//      open connection to mysql db
+
+$connection = mysqli_connect($host,$user,$pass,$db) or die("Error " . mysqli_error($connection));
+
+//$connection = mysqli_connect("localhost","root","","schedule") or die("Error " . mysqli_error($connection));
+
+session_start(); 
+
+if (!$_SESSION['auth'] == 1) { 
+
+   
+
+	echo "<script language=javascript>
+
+			alert('Please Log In.');
+
+			window.location.href='login_.php';
+
+		</script>";
+
+
+
+} 
+
+
+
+
 $sites[0] = 'http://www.traileraddict.com/';
 
 // use this if you want to retrieve more than one page:
@@ -58,11 +89,11 @@ preg_match_all($poster_pattern,$html,$poster);
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">MVCalendar</a>
+      <a class="navbar-brand" href="http://mvcalendar.azurewebsites.net/calendar.php">MVCalendar</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">About Us</a></li>
+        <!--<li class="active"><a href="#">About</a></li>-->
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -72,11 +103,11 @@ preg_match_all($poster_pattern,$html,$poster);
           </ul>
         </li>
         <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li><a href="http://mvwordpress.azurewebsites.net/">WordPress Site</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Home</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        <li><a href="http://mvcalendar.azurewebsites.net/calendar.php"><span class="glyphicon glyphicon-calendar"></span>Calendar</a></li>
+        <li><a href="logout_.php"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
       </ul>
     </div>
   </div>

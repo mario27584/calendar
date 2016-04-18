@@ -78,11 +78,11 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">MVCalendar</a>
+      <a class="navbar-brand" href="http://mvcalendar.azurewebsites.net/calendar.php">MVCalendar</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">About Us</a></li>
+        <!--<li class="active"><a href="#">About Us</a></li>-->
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
           <ul class="dropdown-menu">
