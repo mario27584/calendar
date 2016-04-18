@@ -43,8 +43,8 @@ else {
 }
 
 
-echo "<a href=http://mvcalendar.azurewebsites.net/calendar.php> Go Back </a>";
+echo "<a href=http://mvcalendar.azurewebsites.net/calendar> Go Back </a>";
 
-//echo "<a href=http://localhost:8383/calendar/calendar.php>GO BACK</a>";
+//echo "<a href=http://localhost:8383/calendar/calendar>GO BACK</a>";
 
 ?>

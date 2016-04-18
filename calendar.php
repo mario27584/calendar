@@ -49,7 +49,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
    
    
    <br> <input type="submit" id="submit" value="Submit" name="submit" class="btn btn-default"> 
-  <a href="http://mvcalendar.azurewebsites.net/calendar.php">
+  <a href="http://mvcalendar.azurewebsites.net/calendar">.
   <input type="button" value="Cancel" class="btn btn-default"> 
 </a>
 <br>
@@ -78,7 +78,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="http://mvcalendar.azurewebsites.net/calendar.php">MVCalendar</a>
+      <a class="navbar-brand" href="http://mvcalendar.azurewebsites.net/calendar">MVCalendar</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -92,7 +92,7 @@ parent of d0d7f2d... added a new line to explain why this file is important -->
           </ul>
         </li>
         <li><a href="#">Page 2</a></li>
-        <li><a href="http://mvcalendar.azurewebsites.net/curl_.php">Movies</a></li>
+        <li><a href="http://mvcalendar.azurewebsites.net/curl">Movies</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://mvwordpress.azurewebsites.net/"><span class="glyphicon glyphicon-user"></span> WordPress Site</a></li>

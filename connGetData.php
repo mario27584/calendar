@@ -19,7 +19,7 @@ if (!$_SESSION['auth'] == 1) {
 
 			alert('Please Log In.');
 
-			window.location.href='login_.php';
+			window.location.href='login';
 
 		</script>";
 
